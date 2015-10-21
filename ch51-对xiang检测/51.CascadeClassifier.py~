@@ -3,8 +3,8 @@
 import numpy as np
 import cv2
 
-face_cascade = cv2.CascadeClassifier('/usr/share/opencv/haarcascades/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('/usr/share/opencv/haarcascades/haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('/home/play/opencv-2.4.11/data/haarcascades/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('/home/play/opencv-2.4.11/data/haarcascades/haarcascade_eye.xml')
 
 img = cv2.imread('../data/sachin.jpg')
 # img = cv2.imread('../data/kongjie_hezhao.jpg')
