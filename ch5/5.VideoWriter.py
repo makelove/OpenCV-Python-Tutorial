@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0)
 fourcc = cv2.VideoWriter_fourcc(*'XVID')#opencv 3.0
 #Error: 'module' object has no attribute 'VideoWriter_fourcc'
 #
-out = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))
+out = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))#上下颠倒
 
 while(cap.isOpened()):
     ret, frame = cap.read()
