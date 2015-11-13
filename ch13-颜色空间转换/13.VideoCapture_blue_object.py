@@ -9,11 +9,16 @@ while (1):
     # 换到 HSV
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     # 定蓝色的 值
-    lower_blue = np.array([110, 50, 50])
-    upper_blue = np.array([130, 255, 255])
+    # lower_blue = np.array([110, 50, 50])
+    # upper_blue = np.array([130, 255, 255])
+
+    #黑色
+    lower_black = np.array([0, 0, 0])
+    upper_black = np.array([180, 255, 30])
 
     # 根据 值构建掩模
-    mask = cv2.inRange(hsv, lower_blue, upper_blue)
+    # mask = cv2.inRange(hsv, lower_blue, upper_blue)
+    mask = cv2.inRange(hsv, lower_black, upper_black)
     # 对原图像和掩模位 算
     res = cv2.bitwise_and(frame, frame, mask=mask)
     # 显示图像
@@ -23,5 +28,5 @@ while (1):
     k = cv2.waitKey(5) & 0xFF
     if k == 27:
         break
-# 关 窗口
+# 关闭窗口
 cv2.destroyAllWindows()

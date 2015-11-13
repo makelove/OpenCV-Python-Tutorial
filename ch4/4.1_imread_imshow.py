@@ -3,6 +3,8 @@
 import numpy as np
 import cv2
 
+print cv2.__version__
+
 # Load an color image in grayscale
 img = cv2.imread('messi5.jpg',0)
 
