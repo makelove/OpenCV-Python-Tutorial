@@ -21,8 +21,8 @@ cdf_m = (cdf_m - cdf_m.min())*255/(cdf_m.max()-cdf_m.min())
 # 对被掩盖的元素赋值，赋值为 0
 cdf = np.ma.filled(cdf_m,0).astype('uint8')
 img2 = cdf[img]
-cv2.imshow("img2",img2)
-cv2.waitKey(0)
+# cv2.imshow("img2",img2)
+# cv2.waitKey(0)
 
 ##
 #flatten() 将数组变成一维

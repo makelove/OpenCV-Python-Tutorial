@@ -10,5 +10,5 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.6 (/usr/bin/python2.7)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2 virtualenv at ~/.py3" project-jdk-type="Python SDK" />
 </project>
