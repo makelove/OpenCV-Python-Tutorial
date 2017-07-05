@@ -2,109 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="969b9a2a-bd04-49ea-bb26-8a324b579b28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/含有多个特征的数据.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch22/22.3.4.hsv_hist.py" afterPath="$PROJECT_DIR$/ch22-直方图/22.3.4.hsv_hist.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch22/hist-1.py" afterPath="$PROJECT_DIR$/ch22-直方图/hist-1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch22/hist-bgr.py" afterPath="$PROJECT_DIR$/ch22-直方图/hist-bgr.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch22/hist-normalized-2.py" afterPath="$PROJECT_DIR$/ch22-直方图/hist-normalized-2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch22/hist-normalized.py" afterPath="$PROJECT_DIR$/ch22-直方图/hist-normalized.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ch22/mask.py" afterPath="$PROJECT_DIR$/ch22-直方图/mask.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OpenCV-Python-Toturial-中文版.pdf" afterPath="$PROJECT_DIR$/OpenCV-Python-Toturial-中文版.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch30-Harris角点检测/subpixel5.png" afterPath="$PROJECT_DIR$/ch30-Harris角点检测/subpixel5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch4/messi5.jpg" afterPath="$PROJECT_DIR$/ch4/messi5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch4/messigray.png" afterPath="$PROJECT_DIR$/ch4/messigray.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/OpenCV_Logo_with_text.png" afterPath="$PROJECT_DIR$/data/OpenCV_Logo_with_text.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/black-white-rect.png" afterPath="$PROJECT_DIR$/data/black-white-rect.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/box.png" afterPath="$PROJECT_DIR$/data/box.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/box_in_scene.png" afterPath="$PROJECT_DIR$/data/box_in_scene.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/chessboard-2.png" afterPath="$PROJECT_DIR$/data/chessboard-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/chessboard-3.png" afterPath="$PROJECT_DIR$/data/chessboard-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/chessboard.jpeg" afterPath="$PROJECT_DIR$/data/chessboard.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/contour.jpg" afterPath="$PROJECT_DIR$/data/contour.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/contrast75.png" afterPath="$PROJECT_DIR$/data/contrast75.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/corner-detection.jpg" afterPath="$PROJECT_DIR$/data/corner-detection.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/home.jpg" afterPath="$PROJECT_DIR$/data/home.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/kongjie_hezhao.jpg" afterPath="$PROJECT_DIR$/data/kongjie_hezhao.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/mario.png" afterPath="$PROJECT_DIR$/data/mario.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/mario_coin.png" afterPath="$PROJECT_DIR$/data/mario_coin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/messi5.jpg" afterPath="$PROJECT_DIR$/data/messi5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/messi_face.jpg" afterPath="$PROJECT_DIR$/data/messi_face.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/ml.png" afterPath="$PROJECT_DIR$/data/ml.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/newmask.jpg" afterPath="$PROJECT_DIR$/data/newmask.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/opencv_logo.png" afterPath="$PROJECT_DIR$/data/opencv_logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sachin.jpg" afterPath="$PROJECT_DIR$/data/sachin.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/star.png" afterPath="$PROJECT_DIR$/data/star.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sudoku-1.jpg" afterPath="$PROJECT_DIR$/data/sudoku-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/sudoku.jpg" afterPath="$PROJECT_DIR$/data/sudoku.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/water_coins.jpg" afterPath="$PROJECT_DIR$/data/water_coins.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._.git" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._.idea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/._OpenCV-Python-Toturial-中文版.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch10/10.addWeighted.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch10/10.bitwise_and.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch11/11.getTickCount.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch11/11.useOptimized.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.getAffineTransform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.getPerspectiveTransform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.getRotationMatrix2D.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.resize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.wrapAffine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch15/15.THRESH_OTSU.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch15/15.adaptiveThreshold.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch15/15.threshold.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch15/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch16/16.filter2D.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch17-形态学zhuan换/17.erode.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch19-Canny-边缘检测/19.Canny.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch20-图像jin字塔/20.Apple_orange.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch20-图像jin字塔/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch21-Contours/21-findContour.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch21-Contours/21-moments.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch23/fftshift-abs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch23/fftshift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch24/Multiple-Objects.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch24/matchTemplate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch25/HoughLines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch25/HoughLinesP.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch26-Hough圆环变换/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch31-Shi-Tomasi角点检测/goodFeaturesToTrack.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/4.1_imread_imshow.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/4.imread_imshow_imwrite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/4.matplotlib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/messi5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/messigray.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.3_颜色量化2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/含有多个特征的数据.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5/5.VideoCapture.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5/5.VideoPlay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5/5.VideoWriter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch51-对xiang检测/51.CascadeClassifier.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch6/6.draw.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch7/7.MouseCallback.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch7/7.draw_circle_rectangle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/8.Trackbar_draw.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/8.createTrackbar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.MakeBorder.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.img_roi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.itemset.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.shape.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.split_color.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OpenCV-Python-Toturial.iml" afterPath="$PROJECT_DIR$/.idea/OpenCV-Python-Toturial.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__init__.py" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch10/10.addWeighted.py" afterPath="$PROJECT_DIR$/ch10/10.addWeighted.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch10/10.bitwise_and.py" afterPath="$PROJECT_DIR$/ch10/10.bitwise_and.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch11/11.getTickCount.py" afterPath="$PROJECT_DIR$/ch11/11.getTickCount.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch11/11.useOptimized.py" afterPath="$PROJECT_DIR$/ch11/11.useOptimized.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch13-颜色空间转换/13.VideoCapture_blue_object.py" afterPath="$PROJECT_DIR$/ch13-颜色空间转换/13.VideoCapture_blue_object.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch13-颜色空间转换/13.cvtColor_flag.py" afterPath="$PROJECT_DIR$/ch13-颜色空间转换/13.cvtColor_flag.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch13-颜色空间转换/13.find_object_hsv.py" afterPath="$PROJECT_DIR$/ch13-颜色空间转换/13.find_object_hsv.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch14/14.getAffineTransform.py" afterPath="$PROJECT_DIR$/ch14/14.getAffineTransform.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch14/14.getPerspectiveTransform.py" afterPath="$PROJECT_DIR$/ch14/14.getPerspectiveTransform.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch14/14.getRotationMatrix2D.py" afterPath="$PROJECT_DIR$/ch14/14.getRotationMatrix2D.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch14/14.resize.py" afterPath="$PROJECT_DIR$/ch14/14.resize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch14/14.wrapAffine.py" afterPath="$PROJECT_DIR$/ch14/14.wrapAffine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch15/15.THRESH_OTSU.py" afterPath="$PROJECT_DIR$/ch15/15.THRESH_OTSU.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch15/15.adaptiveThreshold.py" afterPath="$PROJECT_DIR$/ch15/15.adaptiveThreshold.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch15/15.threshold.py" afterPath="$PROJECT_DIR$/ch15/15.threshold.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch15/__init__.py" afterPath="$PROJECT_DIR$/ch15/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch16/16.filter2D.py" afterPath="$PROJECT_DIR$/ch16/16.filter2D.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch17-形态学zhuan换/17.erode.py" afterPath="$PROJECT_DIR$/ch17-形态学zhuan换/17.erode.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch18-图像梯度/19.Sobel.py" afterPath="$PROJECT_DIR$/ch18-图像梯度/19.Sobel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch19-Canny-边缘检测/19.Canny.py" afterPath="$PROJECT_DIR$/ch19-Canny-边缘检测/19.Canny.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch20-图像jin字塔/20.Apple_orange.py" afterPath="$PROJECT_DIR$/ch20-图像jin字塔/20.Apple_orange.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch20-图像jin字塔/__init__.py" afterPath="$PROJECT_DIR$/ch20-图像jin字塔/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch21-Contours/21-findContour.py" afterPath="$PROJECT_DIR$/ch21-Contours/21-findContour.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch21-Contours/21-moments.py" afterPath="$PROJECT_DIR$/ch21-Contours/21-moments.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch23/fftshift-abs.py" afterPath="$PROJECT_DIR$/ch23/fftshift-abs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch23/fftshift.py" afterPath="$PROJECT_DIR$/ch23/fftshift.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch24/Multiple-Objects.py" afterPath="$PROJECT_DIR$/ch24/Multiple-Objects.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch24/matchTemplate.py" afterPath="$PROJECT_DIR$/ch24/matchTemplate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch25/HoughLines.py" afterPath="$PROJECT_DIR$/ch25/HoughLines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch25/HoughLinesP.py" afterPath="$PROJECT_DIR$/ch25/HoughLinesP.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch26-Hough圆环变换/HoughCircles.py" afterPath="$PROJECT_DIR$/ch26-Hough圆环变换/HoughCircles.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch26-Hough圆环变换/__init__.py" afterPath="$PROJECT_DIR$/ch26-Hough圆环变换/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch27-分水岭算法图像分割/threshold.py" afterPath="$PROJECT_DIR$/ch27-分水岭算法图像分割/threshold.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch28-使用GrabCut算法进行交互式前景提取/grabCut.py" afterPath="$PROJECT_DIR$/ch28-使用GrabCut算法进行交互式前景提取/grabCut.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch28-使用GrabCut算法进行交互式前景提取/grabCut2.py" afterPath="$PROJECT_DIR$/ch28-使用GrabCut算法进行交互式前景提取/grabCut2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch30-Harris角点检测/cornerHarris.py" afterPath="$PROJECT_DIR$/ch30-Harris角点检测/cornerHarris.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch30-Harris角点检测/cornerSubPix.py" afterPath="$PROJECT_DIR$/ch30-Harris角点检测/cornerSubPix.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch31-Shi-Tomasi角点检测/goodFeaturesToTrack.py" afterPath="$PROJECT_DIR$/ch31-Shi-Tomasi角点检测/goodFeaturesToTrack.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch37-特征匹配/37.4-SIFT_match.py" afterPath="$PROJECT_DIR$/ch37-特征匹配/37.4-SIFT_match.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch4/4.1_imread_imshow.py" afterPath="$PROJECT_DIR$/ch4/4.1_imread_imshow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch4/4.imread_imshow_imwrite.py" afterPath="$PROJECT_DIR$/ch4/4.imread_imshow_imwrite.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch4/4.matplotlib.py" afterPath="$PROJECT_DIR$/ch4/4.matplotlib.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch5/5.VideoCapture.py" afterPath="$PROJECT_DIR$/ch5/5.VideoCapture.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch5/5.VideoPlay.py" afterPath="$PROJECT_DIR$/ch5/5.VideoPlay.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch5/5.VideoWriter.py" afterPath="$PROJECT_DIR$/ch5/5.VideoWriter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch5/__init__.py" afterPath="$PROJECT_DIR$/ch5/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch51-对xiang检测/51.CascadeClassifier.py" afterPath="$PROJECT_DIR$/ch51-对xiang检测/51.CascadeClassifier.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch6/6.draw.py" afterPath="$PROJECT_DIR$/ch6/6.draw.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch7/7.MouseCallback.py" afterPath="$PROJECT_DIR$/ch7/7.MouseCallback.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch7/7.draw_circle_rectangle.py" afterPath="$PROJECT_DIR$/ch7/7.draw_circle_rectangle.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch8/8.Trackbar_draw.py" afterPath="$PROJECT_DIR$/ch8/8.Trackbar_draw.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch8/8.createTrackbar.py" afterPath="$PROJECT_DIR$/ch8/8.createTrackbar.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch9/9.MakeBorder.py" afterPath="$PROJECT_DIR$/ch9/9.MakeBorder.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch9/9.img_roi.py" afterPath="$PROJECT_DIR$/ch9/9.img_roi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch9/9.itemset.py" afterPath="$PROJECT_DIR$/ch9/9.itemset.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch9/9.shape.py" afterPath="$PROJECT_DIR$/ch9/9.shape.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch9/9.split_color.py" afterPath="$PROJECT_DIR$/ch9/9.split_color.py" />
     </list>
     <ignored path="OpenCV-Python-Toturial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -118,9 +76,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/OpenCV-Python-Toturial$.coverage" NAME="含有多个特征的数据 Coverage Results" MODIFIED="1487922433441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/48.2_OpenCV中的K值聚类" />
-    <SUITE FILE_PATH="coverage/OpenCV-Python-Toturial$48_2_3_.coverage" NAME="48.2.3_颜色量化 Coverage Results" MODIFIED="1487922153392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/48.2_OpenCV中的K值聚类" />
     <SUITE FILE_PATH="coverage/OpenCV-Python-Toturial$48_2_2_.coverage" NAME="48.2.2_仅有一个特征的数据 Coverage Results" MODIFIED="1487920239248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/48.2_OpenCV中的K值聚类" />
     <SUITE FILE_PATH="coverage/OpenCV-Python-Toturial$48_2_3_2.coverage" NAME="48.2.3_颜色量化2 Coverage Results" MODIFIED="1487925018194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/48.2_OpenCV中的K值聚类" />
+    <SUITE FILE_PATH="coverage/OpenCV-Python-Toturial$48_2_3_.coverage" NAME="48.2.3_颜色量化 Coverage Results" MODIFIED="1487922153392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/48.2_OpenCV中的K值聚类" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -130,7 +88,98 @@
     <favorites_list name="OpenCV-Python-Toturial" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="11.useOptimized.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch11-程序性能检测及优化/11.useOptimized.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="13.find_object_hsv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch13-颜色空间转换/13.find_object_hsv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="14.getRotationMatrix2D.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch14-几何变换/14.getRotationMatrix2D.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="14.wrapAffine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch14-几何变换/14.wrapAffine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="15.threshold.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch15-图像阈值/15.threshold.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="16.filter2D.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch16-图像平衡/16.filter2D.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19.Sobel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch18-图像梯度/19.Sobel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20.Apple_orange.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch20-图像金字塔/20.Apple_orange.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HoughCircles.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch26-Hough圆环变换/HoughCircles.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -181,6 +230,7 @@
         <option value="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/含有多个特征的数据.py" />
         <option value="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py" />
         <option value="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化2.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -192,18 +242,11 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="2518" />
-    <option name="height" value="1057" />
+    <option name="width" value="1251" />
+    <option name="height" value="777" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -227,6 +270,10 @@
               <option name="myItemId" value="OpenCV-Python-Toturial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -234,7 +281,207 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch26-Hough圆环变换" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch20-图像金字塔" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch18-图像梯度" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch16-图像平衡" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch15-图像阈值" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch14-几何变换" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch13-颜色空间转换" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch11-程序性能检测及优化" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch10-图像上的算术运算" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch09-图像的基础操作" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch08-用滑动条做调色板" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch07-把鼠标当画笔" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch06-OpenCV中的绘图函数" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch05-视频" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Toturial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenCV-Python-Tutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch04-图片" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,7 +495,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
   </component>
   <component name="RecentsManager">
@@ -263,6 +509,18 @@
       <recent name="$PROJECT_DIR$/ch23" />
       <recent name="$PROJECT_DIR$/ch22" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.48.2.3_颜色量化2">
     <configuration default="false" name="21-findContour" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -281,6 +539,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch21-Contours/21-findContour.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="48.2.2_仅有一个特征的数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -299,6 +558,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="含有多个特征的数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -317,6 +577,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/含有多个特征的数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="48.2.3_颜色量化" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -335,6 +596,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="48.2.3_颜色量化2" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -353,6 +615,7 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -384,6 +647,19 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -433,6 +709,7 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -458,30 +735,10 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenCV-Python-Toturial" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -515,15 +772,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenCV-Python-Toturial" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -537,16 +789,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenCV-Python-Toturial" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -560,18 +805,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenCV-Python-Toturial" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <list size="5">
@@ -590,6 +827,26 @@
         <item index="4" class="java.lang.String" itemvalue="Python.21-findContour" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenCV-Python-Toturial" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -608,11 +865,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2518" height="1057" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1251" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19103393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1938691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -621,6 +878,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -632,6 +890,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35132384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -662,32 +923,32 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py</url>
+          <url>file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py</url>
           <line>22</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py</url>
+          <url>file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py</url>
           <line>37</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/含有多个特征的数据.py</url>
+          <url>file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/含有多个特征的数据.py</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/含有多个特征的数据.py</url>
+          <url>file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/含有多个特征的数据.py</url>
           <line>29</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py</url>
+          <url>file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py</url>
           <line>33</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py</url>
+          <url>file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py</url>
           <line>25</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -697,309 +958,116 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch7/7.MouseCallback.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch8/8.createTrackbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch8/8.Trackbar_draw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch17-形态学zhuan换/17.erode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch14/14.getPerspectiveTransform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch14/14.getRotationMatrix2D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch14/14.resize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch14/14.wrapAffine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch18-图像梯度/19.Sobel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch5/5.VideoWriter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch23/fftshift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch23/fftshift-abs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch24/matchTemplate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch24/Multiple-Objects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch26-Hough圆环变换/HoughCircles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch27-分水岭算法图像分割/threshold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch30-Harris角点检测/cornerSubPix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch30-Harris角点检测/cornerHarris.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch31-Shi-Tomasi角点检测/goodFeaturesToTrack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch51-对xiang检测/51.CascadeClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/star.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch25/HoughLines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch25/HoughLinesP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch13-颜色空间转换/13.cvtColor_flag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch19-Canny-边缘检测/19.Canny.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch13-颜色空间转换/13.find_object_hsv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch13-颜色空间转换/13.VideoCapture_blue_object.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch30-Harris角点检测/subpixel5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/-1247972723/cv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/ch37-特征匹配/37.4-SIFT_match.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch6/6.draw.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/5.VideoPlay.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch5/5.VideoCapture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch22-直方图/22.3.4.hsv_hist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch22-直方图/hist-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch22-直方图/hist-bgr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch22-直方图/hist-normalized.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch22-直方图/hist-normalized-2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="24" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
+          <caret line="24" column="9" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch22-直方图/mask.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch22-直方图/hist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch4/4.1_imread_imshow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch28-使用GrabCut算法进行交互式前景提取/grabCut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch28-使用GrabCut算法进行交互式前景提取/grabCut2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch21-Contours/21-findContour.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch21-Contours/21-moments.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1013,40 +1081,274 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py">
+    <entry file="file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
             <element signature="e#401#419#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py">
+    <entry file="file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="e#264#282#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/48.2.3_颜色量化2.py">
+    <entry file="file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.3_颜色量化2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/48.2_OpenCV中的K值聚类/含有多个特征的数据.py">
+    <entry file="file://$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/含有多个特征的数据.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#353#371#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/._.idea">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/._.git">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04/4.1_imread_imshow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04-图片/messi5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04-图片/4.matplotlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04-图片/4.imread_imshow_imwrite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch04-图片/4.1_imread_imshow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05-视频/5.VideoCapture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05-视频/5.VideoPlay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05-视频/5.VideoWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05-视频/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch06-OpenCV中的绘图函数/6.draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch09-图像的基础操作/9.shape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch10-图像上的算术运算/10.bitwise_and.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch11-程序性能检测及优化/11.useOptimized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch13-颜色空间转换/13.find_object_hsv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch14-几何变换/14.getRotationMatrix2D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch14-几何变换/14.wrapAffine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch15-图像阈值/15.threshold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch16-图像平衡/16.filter2D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch18-图像梯度/19.Sobel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch20-图像金字塔/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch26-Hough圆环变换/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch20-图像金字塔/20.Apple_orange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch15-图像阈值/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch26-Hough圆环变换/HoughCircles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
