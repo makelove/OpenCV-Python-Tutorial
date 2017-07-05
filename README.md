@@ -8,5 +8,5 @@
 # 添加了 Python3.6分支
 该分支是使用 opencv3.2+Python3.6
 
-git clone https://github.com/makelove/OpenCV-Python-Tutorial.git
-git checkout python3.6
+* git clone https://github.com/makelove/OpenCV-Python-Tutorial.git
+* git checkout python3.6
