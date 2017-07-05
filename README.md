@@ -10,3 +10,5 @@
 
 * git clone https://github.com/makelove/OpenCV-Python-Tutorial.git
 * git checkout python3.6
+
+##### 建议使用PyCharm来编写/调试Python代码

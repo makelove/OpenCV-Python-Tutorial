@@ -1,0 +1,37 @@
+opencv3.2
+python3.6
+
+#
+安装python3
+brew install python3
+
+安装pip
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+
+创建虚拟环境
+pip install --upgrade virtualenv
+virtualenv -p python3 .py3
+
+pip3 install -U numpy scipy matplotlib scikit-learn scikit-image
+
+
+
+brew tap homebrew/science
+
+#有时会出错
+brew install opencv3 --HEAD --with-python3  --without-python --with-contrib  --with-ffmpeg --with-tbb --with-gstreamer
+
+#最简单的
+brew install opencv3 --without-python --with-python3
+
+链接cv2.so到虚拟环境里
+ln -s /usr/local/Cellar/opencv3/3.2.0/lib/python3.6/site-packages/cv2.cpython-36m-darwin.so   ~/.py3/lib/python3.6/site-packages/cv2.so
+
+
+测试
+ ~/.py3/bin/python3.6
+
+import cv2
+print(cv2.__version__)
+#3.2.0

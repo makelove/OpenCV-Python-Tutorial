@@ -15,6 +15,8 @@ img2 = cv2.imread('../data/box_in_scene.png',0) # trainImage
 # Initiate SIFT detector
 # sift = cv2.SIFT()
 sift = cv2.xfeatures2d.SIFT_create()
+#TODO
+
 # find the keypoints and descriptors with SIFT
 kp1, des1 = sift.detectAndCompute(img1,None)
 kp2, des2 = sift.detectAndCompute(img2,None)
