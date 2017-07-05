@@ -1,69 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="969b9a2a-bd04-49ea-bb26-8a324b579b28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/._.git" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/._.idea" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/._OpenCV-Python-Toturial-中文版.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch10/10.addWeighted.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch10/10.bitwise_and.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch11/11.getTickCount.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch11/11.useOptimized.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.getAffineTransform.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.getPerspectiveTransform.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.getRotationMatrix2D.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.resize.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch14/14.wrapAffine.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch15/15.THRESH_OTSU.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch15/15.adaptiveThreshold.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch15/15.threshold.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch15/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch16/16.filter2D.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch17-形态学zhuan换/17.erode.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch19-Canny-边缘检测/19.Canny.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch20-图像jin字塔/20.Apple_orange.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch20-图像jin字塔/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch21-Contours/21-findContour.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch21-Contours/21-moments.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch23/fftshift-abs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch23/fftshift.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch24/Multiple-Objects.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch24/matchTemplate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch25/HoughLines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch25/HoughLinesP.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch26-Hough圆环变换/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch31-Shi-Tomasi角点检测/goodFeaturesToTrack.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/4.1_imread_imshow.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/4.imread_imshow_imwrite.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/4.matplotlib.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/messi5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch4/messigray.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.2_仅有一个特征的数据.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.3_颜色量化.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/48.2.3_颜色量化2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch48.2_OpenCV中的K值聚类/含有多个特征的数据.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5/5.VideoCapture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5/5.VideoPlay.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5/5.VideoWriter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch5/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch51-对xiang检测/51.CascadeClassifier.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch6/6.draw.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch7/7.MouseCallback.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch7/7.draw_circle_rectangle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/8.Trackbar_draw.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch8/8.createTrackbar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.MakeBorder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.img_roi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.itemset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.shape.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ch9/9.split_color.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OpenCV-Python-Toturial.iml" afterPath="$PROJECT_DIR$/.idea/OpenCV-Python-Toturial.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="969b9a2a-bd04-49ea-bb26-8a324b579b28" name="Default" comment="" />
     <ignored path="OpenCV-Python-Toturial.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
