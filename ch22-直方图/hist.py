@@ -38,7 +38,7 @@ def hist_curve(im):
 def hist_lines(im):
     h = np.zeros((300,256,3))
     if len(im.shape)!=2:
-        print "hist_lines applicable only for grayscale images"
+        print( "hist_lines applicable only for grayscale images")
         #print "so converting image to grayscale for representation"
         im = cv2.cvtColor(im,cv2.COLOR_BGR2GRAY)
     hist_item = cv2.calcHist([im],[0],None,[256],[0,256])
