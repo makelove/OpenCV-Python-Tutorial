@@ -19,7 +19,10 @@ while (cap.isOpened()):
 
     # Display the resulting frame
     cv2.imshow('frame', gray)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    # if cv2.waitKey(1) & 0xFF == ord('q'):#不行
+    #     break
+    key = cv2.waitKey(1)
+    if key == ord("q"):
         break
 
 # When everything done, release the capture
