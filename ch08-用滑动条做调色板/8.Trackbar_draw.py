@@ -12,6 +12,15 @@ drawing = False
 # 如果 mode 为 true 绘制矩形。按下'm' 变成绘制曲线。 mode=True
 ix, iy = -1, -1
 
+'''
+cv2.getTrackbarPos() 函数的第一个参数是滑动条的名字 
+第二个参数 是滑动条被放置窗口的名字 
+第三个参数是滑动条的默认位置。
+第四个参数是滑动条的最大值 
+第五个函数是回调函数， 每次滑动条的滑动都会调用回调函 数。
+回调函数通常都会含有一个默认参数 就是滑动条的位置
+'''
+
 
 # 创建回调函数
 def draw_circle(event, x, y, flags, param):
@@ -27,8 +36,8 @@ def draw_circle(event, x, y, flags, param):
         ix, iy = x, y
     # 当鼠标左键按下并移动是绘制图形。event 可以查看移动,flag 查看是否按下
     elif event == cv2.EVENT_MOUSEMOVE and flags == cv2.EVENT_FLAG_LBUTTON:
-        if drawing == True:
-            if mode == True:
+        if drawing is True:
+            if mode is True:
                 cv2.rectangle(img, (ix, iy), (x, y), color, -1)
             else:
                 # 绘制圆圈,小圆点连在一起就成了线,3 代表了笔画的粗细
@@ -39,7 +48,7 @@ def draw_circle(event, x, y, flags, param):
 
                 # 当鼠标松开停止绘画。
     elif event == cv2.EVENT_LBUTTONUP:
-        drawing == False
+        drawing = False
         # if mode==True:
         #     cv2.rectangle(img,(ix,iy),(x,y),(0,255,0),-1)
         # else:
@@ -47,17 +56,18 @@ def draw_circle(event, x, y, flags, param):
 
 
 img = np.zeros((512, 512, 3), np.uint8)
-mode=False
+mode = False
 
 cv2.namedWindow('image')
 cv2.createTrackbar('R', 'image', 0, 255, nothing)
 cv2.createTrackbar('G', 'image', 0, 255, nothing)
 cv2.createTrackbar('B', 'image', 0, 255, nothing)
 cv2.setMouseCallback('image', draw_circle)
-while (1):
+
+while True:
     cv2.imshow('image', img)
-    k = cv2.waitKey(1) & 0xFF
+    k = cv2.waitKey(1)  # & 0xFF
     if k == ord('m'):
         mode = not mode
-    elif k == 27:
+    elif k == ord("q"):
         break
