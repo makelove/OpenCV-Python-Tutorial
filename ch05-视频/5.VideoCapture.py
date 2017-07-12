@@ -43,7 +43,7 @@ while cap.isOpened():  # 检查是否成功初始化，否则就 使用函数 ca
     cv2.imshow('frame', gray)
     # if cv2.waitKey(1) & 0xFF == ord('q'):#不行
     #     break
-    key = cv2.waitKey(1)
+    key = cv2.waitKey(delay=1)
     if key == ord("q"):
         break
 

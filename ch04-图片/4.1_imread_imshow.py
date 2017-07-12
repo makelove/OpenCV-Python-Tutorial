@@ -16,7 +16,7 @@ img = cv2.imread('messi5.jpg',cv2.IMREAD_UNCHANGED)#包括图像的 alpha 通道
 #
 rows,cols,ch=img.shape
 print('行/高:',rows,'列/宽:',cols,'通道:',ch)
-
+#图像的宽对应的是列数, 高对应的是行数。
 
 cv2.namedWindow('image', cv2.WINDOW_NORMAL)#可以调整窗口大小
 # cv2.namedWindow('image', cv2.WINDOW_AUTOSIZE)#自动调整
