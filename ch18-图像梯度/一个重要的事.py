@@ -22,7 +22,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread('box.png', 0)
+img = cv2.imread('../data/box.png', 0)
 
 # Output dtype = cv2.CV_8U
 sobelx8u = cv2.Sobel(img, cv2.CV_8U, 1, 0, ksize=5)
