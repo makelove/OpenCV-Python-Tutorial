@@ -2,6 +2,8 @@
 __author__ = 'play4fun'
 """
 create time:15-10-25 下午12:02
+一个圆环 需要 3 个参数来确定。所以进行圆环 夫变换的累加器必须是 3 维的
+  这样的 效率 就会很低。所以 OpenCV 用来一个比 巧妙的办法 霍夫梯度法 它可以使 用边界的梯度信息。
 """
 
 import cv2
@@ -12,6 +14,7 @@ img = cv2.medianBlur(img, 5)
 cimg = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
 
 circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 1, 20, param1=50, param2=30, minRadius=0, maxRadius=0)
+
 circles = np.uint16(np.around(circles))
 print(circles)
 
@@ -20,6 +23,7 @@ for i in circles[0, :]:
     cv2.circle(cimg, (i[0], i[1]), i[2], (0, 255, 0), 2)
     # draw the center of the circle
     cv2.circle(cimg, (i[0], i[1]), 2, (0, 0, 255), 3)
+
 cv2.imshow('detected circles', cimg)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
