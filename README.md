@@ -10,3 +10,7 @@
 
 * git clone https://github.com/makelove/OpenCV-Python-Tutorial.git
 * git checkout python3.6
+
+
+# master 变成了python2.7分支
+ python3.6分支，变成了master
