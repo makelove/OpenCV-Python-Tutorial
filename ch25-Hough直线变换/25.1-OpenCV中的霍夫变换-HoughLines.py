@@ -12,6 +12,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # edges = cv2.Canny(gray,50,150,apertureSize = 3)
 edges = cv2.Canny(gray, 10, 50, apertureSize=3)
 cv2.imshow("edges", edges)
+
 lines = cv2.HoughLines(edges, 1, np.pi / 180, 200)
 print("Len of lines:", len(lines))
 # print lines
@@ -31,3 +32,4 @@ for line in lines:
 # cv2.imwrite('houghlines3.jpg',img)
 cv2.imshow("houghlines3.jpg", img)
 cv2.waitKey(0)
+cv2.destroyAllWindows()
