@@ -1,5 +1,22 @@
 # -*- coding: utf-8 -*-
 
+'''
+以 Haar 特征分类器为基础的面部检测技术
+将面部检测扩展到眼部检测等。
+
+以 Haar 特征分类器为基础的对 检测技术是一种 常有效的对 检测 技术 2001 年 Paul_Viola 和 Michael_Jones 提出 。它是基于机器学习的    使用大 的正 样本图像 练得到一个 cascade_function 最后再用它 来做对 检测。
+现在我们来学习  检测。开始时 算法  大 的正样本图像   图 像 和 样本图像 不含  的图像 来 练分类器。我们  从其中提取特 征。下图中的 Haar 特征会 使用。它们就像我们的卷积核。每一个特征是一 个值  个值等于 色矩形中的像素值之后减去白色矩形中的像素值之和。
+
+ 那么我们怎样从超过160000+ 个特征中 出最好的特征呢 ？
+ 使用 Adaboost。
+
+OpenCV 自带了训练器和检测器。如果你想自己训练一个分类器来检测 汽车飞机等的
+可以使用 OpenCV 构建。
+Cascade Classifier Training :http://docs.opencv.org/2.4/doc/user_guide/ug_traincascade.html
+
+
+'''
+
 import numpy as np
 import cv2
 

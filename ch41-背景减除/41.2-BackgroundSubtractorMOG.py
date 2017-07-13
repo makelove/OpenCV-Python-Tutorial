@@ -15,8 +15,8 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('vtest.avi')
-fgbg = cv2.createBackgroundSubtractorMOG()
+cap = cv2.VideoCapture('../data/vtest.avi')
+fgbg = cv2.bgsegm.createBackgroundSubtractorMOG() #TODO
 # 可选参数 比如 进行建模场景的时间长度 高斯混合成分的数量-阈值等
 
 while True:

@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2017/2/24 下午3:14
+# @Time    : 2017/7/13 下午9:01
 # @Author  : play4fun
-# @File    : 含有多个特征的数据.py
+# @File    : 48.2.2-含有多个特征的数据.py
 # @Software: PyCharm
 
 """
-含有多个特征的数据.py:
+48.2.2-含有多个特征的数据.py:
+身高
+体重
+
 """
 
 # 在前 的 T 恤例子中我们只考 了   现在我们也把体 考  去 也 就是两个特征。
@@ -19,12 +22,13 @@ from matplotlib import pyplot as plt
 X = np.random.randint(25, 50, (25, 2))
 Y = np.random.randint(60, 85, (25, 2))
 Z = np.vstack((X, Y))
+
 # convert to np.float32
 Z = np.float32(Z)
-
 # define criteria and apply kmeans()
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 10, 1.0)
 ret, label, center = cv2.kmeans(Z, 2, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
+
 # Now separate the data, Note the flatten()
 A = Z[label.ravel() == 0]
 B = Z[label.ravel() == 1]

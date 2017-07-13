@@ -1,0 +1,14 @@
+目标
+• 学习使用非局部平均值去噪算法去除图像中的噪声
+• 学习函数 cv2.fastNlMeansDenoising() cv2.fastNlMeansDenoisingColored() 等
+
+
+噪声是平均值为1的随机变量
+
+对于彩色图像  先转换到 CIELAB 颜色空间 然后对 L 和 AB 成分 分别去噪
+
+OpenCV 中的图像去噪
+1. cv2.fastNlMeansDenoising() 使用对象为灰度图。
+2. cv2.fastNlMeansDenoisingColored() 使用对象为彩色图。
+3. cv2.fastNlMeansDenoisingMulti() 用于短时 的图像序列 灰度图像
+4. cv2.fastNlMeansDenoisingColoredMulti()  用于短时 的图 像序列 彩色图像
