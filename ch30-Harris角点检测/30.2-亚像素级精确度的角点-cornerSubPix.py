@@ -2,6 +2,16 @@
 __author__ = 'play4fun'
 """
 create time:15-10-29 上午7:47
+
+最大精度的角点检测
+
+首先我们 找到 Harris 角点
+ 然后将角点的重心传给这个函数进行修正。
+ Harris 角点用红色像素标出 
+ 绿色像素是修正后的像素。
+ 在使用 个函数是我们 定义一个爹代停止条件。
+ 当 代次数 到或者精度条件满 后 代就会停止。
+ 我们同样需要定义进行角点搜索的邻域大小。
 """
 
 import cv2
@@ -33,7 +43,7 @@ criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.001)
 corners = cv2.cornerSubPix(gray, np.float32(centroids), (5, 5), (-1, -1), criteria)
 # Now draw them
 res = np.hstack((centroids, corners))
-# np.int0 可以用来省略小数点后 的数字，非四舍五入
+# np.int0 可以用来省略小数点后的数字，非四舍五入
 res = np.int0(res)
 img[res[:, 1], res[:, 0]] = [0, 0, 255]
 img[res[:, 3], res[:, 2]] = [0, 255, 0]
