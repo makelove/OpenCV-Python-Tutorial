@@ -1,8 +1,8 @@
 import numpy as np
 import cv2
 
-# cap = cv2.VideoCapture('vtest.avi')
-cap = cv2.VideoCapture('output.avi')
+cap = cv2.VideoCapture('../data/vtest.avi')
+# cap = cv2.VideoCapture('output.avi')
 # cap = cv2.VideoCapture('Minions_banana.mp4')
 
 while (cap.isOpened()):

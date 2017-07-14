@@ -15,8 +15,8 @@
 import numpy as np
 import cv2
 
-# img = cv2.imread('../data/home.jpg')
-img = cv2.imread('../data/opencv_logo.png')
+img = cv2.imread('../data/home.jpg')
+# img = cv2.imread('../data/opencv_logo.png')
 Z = img.reshape((-1, 3))
 # convert to np.float32
 Z = np.float32(Z)

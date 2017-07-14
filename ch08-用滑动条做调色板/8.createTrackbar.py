@@ -23,10 +23,6 @@ cv2.createTrackbar(switch, 'image', 0, 1, nothing)
 # 只有当 转换按钮 指向 ON 时 滑动条的滑动才有用，否则窗户 都是黑的。
 
 while True:
-    cv2.imshow('image', img)
-    k = cv2.waitKey(1)  # & 0xFF
-    if k == ord("q"):
-        break
 
     # get current positions of four trackbars
     r = cv2.getTrackbarPos('R', 'image')
@@ -38,5 +34,10 @@ while True:
         img[:] = 0
     else:
         img[:] = [b, g, r]
+
+    cv2.imshow('image', img)
+    k = cv2.waitKey(1)  # & 0xFF
+    if k == ord("q"):
+        break
 
 cv2.destroyAllWindows()

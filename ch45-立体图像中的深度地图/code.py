@@ -18,9 +18,14 @@ from matplotlib import pyplot as plt
 imgL = cv2.imread('tsukuba_l.png', 0)
 imgR = cv2.imread('tsukuba_r.png', 0)
 
+#参数不对？
 stereo = cv2.StereoBM_create(numDisparities=16, blockSize=15)
+# stereo = cv2.StereoBM_create(numDisparities=16, blockSize=21)
 disparity = stereo.compute(imgL, imgR)
 
+#不行
 plt.imshow(disparity, 'gray')
 plt.show()
 
+# cv2.imshow('disparity',disparity)
+# cv2.waitKey(0)

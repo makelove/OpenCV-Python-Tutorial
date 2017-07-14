@@ -33,7 +33,7 @@ while cap.isOpened():  # 检查是否成功初始化，否则就 使用函数 ca
     ret, frame = cap.read()  # ret 返回一个布尔值 True/False
     # print('frame shape:',frame.shape)#(720, 1280, 3)
 
-    frame = cv2.flip(frame, flipCode=1)  # 上下颠倒
+    frame = cv2.flip(frame, flipCode=1)  # 左右翻转
     # flipCode：翻转方向：1：水平翻转；0：垂直翻转；-1：水平垂直翻转
 
     # Our operations on the frame come here

@@ -42,15 +42,23 @@ def hog(img):
 
 # 最后 和前 一样 我们将大图分割成小图。使用每个数字的前 250 个作 为训练数据
 #  后 250 个作为测试数据
-img = cv2.imread('digits.png', 0)
+img = cv2.imread('../data/digits.png', 0)
+
 cells = [np.hsplit(row, 100) for row in np.vsplit(img, 50)]
 # First half is trainData, remaining is testData
 train_cells = [i[:50] for i in cells]
 test_cells = [i[50:] for i in cells]
+
 deskewed = [map(deskew, row) for row in train_cells]
+# deskewed = [deskew(row) for row in train_cells]
+# deskewed = map(deskew, train_cells)
 hogdata = [map(hog, row) for row in deskewed]
+# hogdata = [hog(row) for row in deskewed]
+# hogdata = map(hog, deskewed)
+
 trainData = np.float32(hogdata).reshape(-1, 64)
 responses = np.float32(np.repeat(np.arange(10), 250)[:, np.newaxis])
+
 svm = cv2.ml.SVM_create()
 svm.setKernel(cv2.ml.SVM_LINEAR)
 svm.setType(cv2.ml.SVM_C_SVC)
@@ -58,12 +66,13 @@ svm.setC(2.67)
 svm.setGamma(5.383)
 svm.train(trainData, cv2.ml.ROW_SAMPLE, responses)
 svm.save('svm_data.dat')
+
 deskewed = [map(deskew, row) for row in test_cells]
 hogdata = [map(hog, row) for row in deskewed]
 testData = np.float32(hogdata).reshape(-1, bin_n * 4)
+
 result = svm.predict(testData)
 mask = result == responses
 correct = np.count_nonzero(mask)
 print(correct * 100.0 / result.size)
-
 # 94%

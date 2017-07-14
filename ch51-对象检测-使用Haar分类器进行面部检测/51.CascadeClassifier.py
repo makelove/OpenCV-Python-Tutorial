@@ -20,13 +20,16 @@ Cascade Classifier Training :http://docs.opencv.org/2.4/doc/user_guide/ug_trainc
 import numpy as np
 import cv2
 
-face_cascade = cv2.CascadeClassifier('/usr/share/opencv/haarcascades/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('/usr/share/opencv/haarcascades/haarcascade_eye.xml')
+# 运行之前，检查cascade文件路径是否在你的电脑上
+face_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('/usr/local/share/OpenCV/haarcascades/haarcascade_eye.xml')
 
 # img = cv2.imread('../data/sachin.jpg')
-img = cv2.imread('../data/kongjie_hezhao.jpg')
+# img = cv2.imread('../data/kongjie_hezhao.jpg')
+img = cv2.imread('../data/airline-stewardess-bikini.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-cv2.imshow('gray', gray)
+# cv2.imshow('gray', gray)
+
 
 # Detects objects of different sizes in the input image.
 # The detected objects are returned as a list of rectangles.

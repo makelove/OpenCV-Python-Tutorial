@@ -49,10 +49,11 @@ def drawlines(img1, img2, lines, pts1, pts2):
 
 img1 = cv2.imread('myleft.jpg', 0)  # queryimage # left image
 img2 = cv2.imread('myright.jpg', 0)  # trainimage # right image
-sift = cv2.SIFT()
+sift = cv2.xfeatures2d.SIFT_create()
 # find the keypoints and descriptors with SIFT
-kp1, des1 = sift.detectAndCompute(img1, None)
+kp1, des1 = sift.detectAndCompute(img1, None)#TODO
 kp2, des2 = sift.detectAndCompute(img2, None)
+
 # FLANN parameters
 FLANN_INDEX_KDTREE = 0
 index_params = dict(algorithm=FLANN_INDEX_KDTREE, trees=5)

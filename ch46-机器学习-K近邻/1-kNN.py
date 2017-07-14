@@ -33,7 +33,7 @@ blue = trainData[responses.ravel() == 1]
 plt.scatter(blue[:, 0], blue[:, 1], 80, 'b', 's')
 plt.show()
 
-#测试数据被标记为绿色
+# 测试数据被标记为绿色
 # # 回值包括 
 # 1. 由 kNN算法计算得到的测 数据的类别标志0或1 。
 # 如果你想使用最近邻算法 只需 将 k  置为 1 k 就是最近邻的数目。
@@ -50,9 +50,9 @@ print("neighbours: ", neighbours, "\n")
 print("distance: ", dist)
 plt.show()
 
-#如果我们有大 的数据   测  可以直接传入一个数组。对应的结果 同样也是数组
+# 如果我们有大 的数据   测  可以直接传入一个数组。对应的结果 同样也是数组
 
 # 10 new comers
-newcomers = np.random.randint(0,100,(10,2)).astype(np.float32)
-ret, results,neighbours,dist = knn.findNearest(newcomer, 3)
+newcomers = np.random.randint(0, 100, (10, 2)).astype(np.float32)
+ret, results, neighbours, dist = knn.findNearest(newcomer, 3)
 # The results also will contain 10 labels.
