@@ -16,7 +16,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('vtest.avi')
+cap = cv2.VideoCapture('../data/vtest.avi')
 fgbg = cv2.createBackgroundSubtractorMOG2()
 while True:
     ret, frame = cap.read()

@@ -28,7 +28,7 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-img = cv2.imread('simple.jpg', 0)
+img = cv2.imread('../data/blox.jpg', 0)
 
 # Initiate ORB detector
 orb = cv2.ORB_create()

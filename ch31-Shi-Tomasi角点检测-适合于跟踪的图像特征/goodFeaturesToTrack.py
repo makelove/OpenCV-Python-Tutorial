@@ -18,7 +18,8 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-filename = '../data/corner-detection.jpg'
+# filename = '../data/corner-detection.jpg'
+filename = '../data/blox.jpg'
 img = cv2.imread(filename)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 

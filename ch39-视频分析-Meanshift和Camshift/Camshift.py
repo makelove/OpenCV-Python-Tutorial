@@ -37,13 +37,15 @@ while True:
         # Draw it on image
         pts = cv2.boxPoints(ret)
         pts = np.int0(pts)
-        img2 = cv2.polylines(frame, [pts], True, 255, 2)
+        print('len pts:', len(pts),pts)
+        img2 = cv2.polylines(frame, [pts], True, (255, 0, 0), 2)
+
         cv2.imshow('img2', img2)
-        k = cv2.waitKey(60) & 0xff
+        k = cv2.waitKey(1)  # & 0xff
         if k == 27:
             break
-        else:
-            cv2.imwrite(chr(k) + ".jpg", img2)
+            # else:
+            #     cv2.imwrite(chr(k) + ".jpg", img2)
     else:
         break
 cv2.destroyAllWindows()

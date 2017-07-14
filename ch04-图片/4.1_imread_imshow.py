@@ -10,6 +10,8 @@ print(cv2.__version__)
 # img = cv2.imread('messi5.jpg', cv2.IMREAD_GRAYSCALE)# Load an color image in grayscale 灰度
 img = cv2.imread('messi5.jpg',cv2.IMREAD_UNCHANGED)#包括图像的 alpha 通道
 
+img = cv2.resize(img, (640, 480))
+
 # img.I
 # AttributeError: 'numpy.ndarray' object has no attribute 'I'
 

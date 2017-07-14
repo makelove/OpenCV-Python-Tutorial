@@ -19,8 +19,8 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-img1 = cv2.imread('box.png', 0)  # queryImage
-img2 = cv2.imread('box_in_scene.png', 0)  # trainImage
+img1 = cv2.imread('../data/box.png', 0)  # queryImage
+img2 = cv2.imread('../data/box_in_scene.png', 0)  # trainImage
 
 # Initiate ORB detector
 orb = cv2.ORB_create()
@@ -36,6 +36,7 @@ matches = bf.match(des1, des2)
 # Sort them in the order of their distance.
 matches = sorted(matches, key=lambda x: x.distance)
 # Draw first 10 matches.
-img3 = cv2.drawMatches(img1, kp1, img2, kp2, matches[:10], flags=2)  # 前10个匹配
+# img3 = cv2.drawMatches(img1, kp1, img2, kp2, matches[:10], flags=2)  # 前10个匹配
+img3 = cv2.drawMatches(img1, kp1, img2, kp2, matches[:10], None,flags=2)  # 前10个匹配
 
 plt.imshow(img3), plt.show()

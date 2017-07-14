@@ -17,7 +17,7 @@ calcOpticalFlowPyrLK.py:
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('slow.flv')
+cap = cv2.VideoCapture('../data/slow.flv')
 
 # params for ShiTomasi corner detection
 feature_params = dict(maxCorners=100,
@@ -55,7 +55,8 @@ while True:
         frame = cv2.circle(frame, (a, b), 5, color[i].tolist(), -1)
     img = cv2.add(frame, mask)
     cv2.imshow('frame', img)
-    k = cv2.waitKey(30) & 0xff
+
+    k = cv2.waitKey(30) #& 0xff
     if k == 27:
         break
     # Now update the previous frame and previous points

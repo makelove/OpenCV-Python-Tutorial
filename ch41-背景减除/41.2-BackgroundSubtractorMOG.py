@@ -16,7 +16,7 @@ import numpy as np
 import cv2
 
 cap = cv2.VideoCapture('../data/vtest.avi')
-fgbg = cv2.bgsegm.createBackgroundSubtractorMOG() #TODO
+fgbg = cv2.bgsegm.createBackgroundSubtractorMOG()
 # 可选参数 比如 进行建模场景的时间长度 高斯混合成分的数量-阈值等
 
 while True:
@@ -24,7 +24,7 @@ while True:
     fgmask = fgbg.apply(frame)
 
     cv2.imshow('frame', fgmask)
-    k = cv2.waitKey(30) & 0xff
+    k = cv2.waitKey(1) #& 0xff
     if k == 27:
         break
 cap.release()

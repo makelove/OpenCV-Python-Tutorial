@@ -13,7 +13,7 @@ surf.py:SURF加速稳健特征，加速版的SIFT
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread('fly.png', 0)
+img = cv2.imread('../data/butterfly.jpg', 0)
 # Create SURF object. You can specify params here or later. # Here I set Hessian Threshold to 400
 # surf = cv2.SURF(400)
 surf = cv2.xfeatures2d.SURF_create(400)
@@ -47,7 +47,8 @@ print(surf.descriptorSize())
 print(surf.getExtended())
 # False
 # So we make it to True to get 128-dim descriptors.
-surf.extended = True
+# surf.extended = True
+surf.setExtended(True)
 kp, des = surf.detectAndCompute(img, None)
 print(surf.descriptorSize())
 # 128

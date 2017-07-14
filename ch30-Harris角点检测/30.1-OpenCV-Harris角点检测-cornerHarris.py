@@ -13,11 +13,12 @@ cv2.cornerHarris() 参数如下
 import cv2
 import numpy as np
 
-filename = '../data/chessboard.jpeg'
+filename = '../data/chessboard.png'
 # filename = '../data/chessboard-3.png'
 # filename = '../data/corner-detection.jpg'
 
 img = cv2.imread(filename)
+img = cv2.resize(img, (640, 480))
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 gray = np.float32(gray)
 
@@ -28,7 +29,7 @@ dst = cv2.dilate(dst, None)
 # Threshold for an optimal value, it may vary depending on the image.
 img[dst > 0.01 * dst.max()] = [0, 0, 255]
 
+cv2.namedWindow('dst', cv2.WINDOW_NORMAL)
 cv2.imshow('dst', img)
-
 cv2.waitKey(0)
 cv2.destroyAllWindows()

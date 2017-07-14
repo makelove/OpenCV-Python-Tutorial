@@ -13,8 +13,8 @@ import cv2
 from matplotlib import pyplot as plt
 
 MIN_MATCH_COUNT = 10
-img1 = cv2.imread('box.png', 0)  # queryImage
-img2 = cv2.imread('box_in_scene.png', 0)  # trainImage
+img1 = cv2.imread('../data/box.png', 0)  # queryImage
+img2 = cv2.imread('../data/box_in_scene.png', 0)  # trainImage
 
 # Initiate SIFT detector
 sift = cv2.xfeatures2d.SIFT_create()
@@ -51,7 +51,7 @@ if len(good) > MIN_MATCH_COUNT:
     M, mask = cv2.findHomography(src_pts, dst_pts, cv2.RANSAC, 5.0)
     matchesMask = mask.ravel().tolist()
     # 获得原图像的高和宽
-    h, w, d = img1.shape
+    h, w = img1.shape
     # 使用得到的变换矩 对原图像的四个   变换 获得在目标图像上对应的坐标
     pts = np.float32([[0, 0], [0, h - 1], [w - 1, h - 1], [w - 1, 0]]).reshape(-1, 1, 2)
     dst = cv2.perspectiveTransform(pts, M)
@@ -61,8 +61,7 @@ else:
     print("Not enough matches are found - %d/%d" % (len(good), MIN_MATCH_COUNT))
     matchesMask = None
 
-
-#最后我再绘制 inliers 如果能成功的找到目标图像的话  或者匹配的关  点 如果失败。
+# 最后我再绘制 inliers 如果能成功的找到目标图像的话  或者匹配的关  点 如果失败。
 draw_params = dict(matchColor=(0, 255, 0),  # draw matches in green color
                    singlePointColor=None,
                    matchesMask=matchesMask,  # draw only inliers
@@ -71,4 +70,4 @@ draw_params = dict(matchColor=(0, 255, 0),  # draw matches in green color
 img3 = cv2.drawMatches(img1, kp1, img2, kp2, good, None, **draw_params)
 
 plt.imshow(img3, 'gray'), plt.show()
-#复杂图像中被找到的目标图像被标记成白色
+# 复杂图像中被找到的目标图像被标记成白色
