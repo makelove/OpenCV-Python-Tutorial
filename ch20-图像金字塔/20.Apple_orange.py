@@ -37,6 +37,8 @@ for i in range(5, 0, -1):
     GE = cv2.pyrUp(gpA[i])
     L = cv2.subtract(gpA[i - 1], GE)#TODO error
     lpA.append(L)
+    #cv2.error: /Users/play/Temp/opencv/modules/core/src/arithm.cpp:659: error: (-209) The operation is neither 'array op array' (where arrays have the same size and the same number of channels), nor 'array op scalar', nor 'scalar op array' in function arithm_op
+
 
 # generate Laplacian Pyramid for B
 lpB = [gpB[5]]

@@ -19,7 +19,7 @@ img = cv2.imread('../data/opencv_logo.png')
 '''
 现在把卷积核换成 斯核 简单来  方框不变 将原来每个方框的值是 相等的 现在  的值是符合 斯分布的 方框中心的值最大 其余方框根据  离中心元素的 离 减 构成一个 斯小山包。原来的求平均数现在变成求 加权平均数 全就是方框 的值 。
 '''
-# 0 是指根据窗口大小 5,5 来计算高斯函数标准差
+# 0 是指根据窗口大小 (5,5) 来计算高斯函数标准差
 blur = cv2.GaussianBlur(img, (5, 5), 0)  # 高斯模糊
 
 '''
@@ -43,10 +43,11 @@ median = cv2.medianBlur(img, 5)  # 中值模糊
   因为边界处的灰度值变化比较大。
 '''
 
+#16.4 双边滤波
 # cv2.bilateralFilter(src, d, sigmaColor, sigmaSpace)
 # d – Diameter of each pixel neighborhood that is used during filtering. # If it is non-positive, it is computed from sigmaSpace
 # 9  域直径 两个 75 分别是空  斯函数标准差 灰度值相似性 斯函数标准差
-blur = cv2.bilateralFilter(img, 9, 75, 75)
+# blur = cv2.bilateralFilter(img, 9, 75, 75)
 
 plt.subplot(121), plt.imshow(img), plt.title('Original')
 plt.xticks([]), plt.yticks([])

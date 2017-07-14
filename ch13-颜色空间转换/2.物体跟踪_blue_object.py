@@ -18,22 +18,24 @@ import numpy as np
 '''
 
 cap = cv2.VideoCapture(0)
+ret = cap.set(3, 640)
+ret = cap.set(4, 480)
 while True:
     # 获取每一帧
     ret, frame = cap.read()
     # 换到 HSV
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     # 定蓝色的阈值
-    # lower_blue = np.array([110, 50, 50])
-    # upper_blue = np.array([130, 255, 255])
+    lower_blue = np.array([110, 50, 50])
+    upper_blue = np.array([130, 255, 255])
 
     # 黑色
-    lower_black = np.array([0, 0, 0])
-    upper_black = np.array([180, 255, 30])
+    # lower_black = np.array([0, 0, 0])
+    # upper_black = np.array([180, 255, 30])
 
     # 根据阈值构建掩模
-    # mask = cv2.inRange(hsv, lower_blue, upper_blue)
-    mask = cv2.inRange(hsv, lower_black, upper_black)
+    mask = cv2.inRange(hsv, lower_blue, upper_blue)
+    # mask = cv2.inRange(hsv, lower_black, upper_black)
     # 对原图像和掩模位运算
     res = cv2.bitwise_and(frame, frame, mask=mask)
 
@@ -41,9 +43,9 @@ while True:
     cv2.imshow('frame', frame)
     cv2.imshow('mask', mask)
     cv2.imshow('res', res)
-    k = cv2.waitKey(0)  # & 0xFF
-    if k == 27:
+
+    k = cv2.waitKey(1)  # & 0xFF
+    if k == ord('q'):
         break
 # 关闭窗口
 cv2.destroyAllWindows()
-

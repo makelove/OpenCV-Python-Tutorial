@@ -13,6 +13,8 @@ import cv2
 import numpy as np
 
 cap = cv2.VideoCapture(0)
+ret = cap.set(3, 640)
+ret = cap.set(4, 480)
 while True:
     # 获取每一帧
     ret, frame = cap.read()
@@ -32,7 +34,7 @@ while True:
     cv2.imshow('mask', mask)
     cv2.imshow('res', res)
 
-    k = cv2.waitKey(0)  # & 0xFF
+    k = cv2.waitKey(1)  # & 0xFF
     if k == ord('q'):
         break
 # 关 窗口
