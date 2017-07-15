@@ -12,7 +12,7 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 ~~# 添加了 Python3.6分支,
 该分支是使用 opencv3.2+Python3.6~~
 
-把原来的master分支改为python2.7分支，python3.6分支改为master分支
+## 把原来的master分支改为python2.7分支，python3.6分支改为master分支
 * git clone https://github.com/makelove/OpenCV-Python-Tutorial.git
 * ~~git checkout python3.6~~
 
