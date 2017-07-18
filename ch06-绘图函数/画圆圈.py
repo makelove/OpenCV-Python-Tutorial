@@ -40,11 +40,11 @@ while True:
 
         cv2.imshow("Canvas", canvas)
 
-        key = cv2.waitKey(5)
+        key = cv2.waitKey(1000)  # 等待1秒
         if key == ord('q'):
             break
         else:
-            sleep(1)
+            # sleep(1)
             continue
     except KeyboardInterrupt as e:
         print('KeyboardInterrupt', e)
