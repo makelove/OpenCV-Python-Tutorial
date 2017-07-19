@@ -22,7 +22,7 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 
 ### 开发环境
 * macOS Sierra 10.12.5 
-* python 3.6.1
+* Python 3.6.1
 * OpenCV 3.2.0
 
 ### VMware 虚拟机
