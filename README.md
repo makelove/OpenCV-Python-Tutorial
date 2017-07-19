@@ -19,3 +19,14 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 * ~~git checkout python3.6~~
 
 ##### 建议使用PyCharm来编写/调试Python代码
+
+### 开发环境
+* macOS Sierra 10.12.5 
+* python 3.6.1
+* OpenCV 3.2.0
+
+### VMware 虚拟机
+如果安装OpenCV有问题，可以使用VMware 虚拟机安装Ubuntu系统，本人可以帮你们安装一个，再共享到百度云
+
+### 树莓派3b
+本人有一块【树莓派3b】开发板，也安装了OpenCV3，很好用，建议你们也买一块来玩一玩。
