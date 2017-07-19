@@ -24,11 +24,11 @@ dst = cv2.warpPerspective(img, M, (300, 300))
 
 plt.figure(figsize=(8, 7), dpi=98)
 p1 = plt.subplot(211)
-p1.imshow(img)
+p1.show(img)
 p1.set_title('Input')
 
 p2 = plt.subplot(212)
-p2.imshow(dst)
+p2.show(dst)
 p2.set_title('Output')
 
 plt.show()

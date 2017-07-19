@@ -24,7 +24,7 @@ propId 可以是 0 到 18 之 的任何整数。
 # ret=cap.set(3,320)
 # ret=cap.set(4,240)
 
-ret = cap.set(3, 640)
+ret = cap.set(3, 640)#避免计算量过大
 ret = cap.set(4, 480)
 
 # while (True):
