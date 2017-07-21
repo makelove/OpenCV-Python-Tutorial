@@ -3,8 +3,8 @@ http://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
 
 
 ## 安装
-* macOS:brew install tesseract --all-languages
-* ubuntu:sudo apt-get install tesseract-ocr
+* macOS: brew install tesseract --all-languages
+* ubuntu: sudo apt-get install tesseract-ocr
 * pip install pillow
 * pip install pytesseract
 
