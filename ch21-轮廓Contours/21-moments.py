@@ -52,6 +52,7 @@ print('周长:', perimeter)
 '''
 epsilon = 0.1*cv2.arcLength(cnt,True)
 print('epsilon:',epsilon)
+
 approx = cv2.approxPolyDP(cnt,epsilon,True)
 cv2.drawContours(image,[approx],0,(255,0,0),3)
 cv2.imshow('approxPolyDP',image)
