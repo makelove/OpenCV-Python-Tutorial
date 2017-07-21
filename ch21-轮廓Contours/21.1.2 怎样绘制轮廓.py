@@ -54,5 +54,5 @@ cv2.drawContours(imgray, contours[0], 0, (0, 0, 255), 3)
 '''
 
 cv2.imshow('drawContours', im)
-cv2.imshow('drawContours-imgray', imgray)
+cv2.imshow('drawContours-', imgray)
 cv2.waitKey(0)

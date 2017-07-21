@@ -15,7 +15,9 @@ import matplotlib.pyplot as plt
 # img1=cv2.imread('subtract1.jpg')
 img1 = cv2.imread('subtract1.jpg', 0)  # 灰度图
 # img2=cv2.imread('subtract2.jpg')
-img2 = cv2.imread('subtract2.jpg', 0)
+# img2 = cv2.imread('subtract2.jpg', 0)
+img22 = cv2.imread('subtract2.jpg')
+img2=cv2.cvtColor(img22,cv2.COLOR_BGR2GRAY)
 
 cv2.imshow('subtract1', img1)
 cv2.imshow('subtract2', img2)
@@ -46,4 +48,20 @@ cv2.imshow('after threshold', threshold)
 image, contours, hierarchy = cv2.findContours(threshold, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
 
-cv2.waitKey(0)
+areas=list()
+for i,cnt in enumerate(contours):
+    areas.append((i,cv2.contourArea(cnt)))
+
+#
+a2=sorted(areas,key=lambda d:d[1],reverse=True)
+
+for i,are in a2:
+    if are <100:
+        continue
+    cv2.drawContours(img22, contours, i, (0, 0, 255), 3)
+    print(i,are)
+
+    cv2.imshow('drawContours',img22)
+    cv2.waitKey(0)
+
+cv2.destroyAllWindows()
