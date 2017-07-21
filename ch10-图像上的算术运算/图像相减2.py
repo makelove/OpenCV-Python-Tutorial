@@ -42,4 +42,8 @@ plt.show()
 ret, threshold = cv2.threshold(st, 50, 255, cv2.THRESH_BINARY)
 cv2.imshow('after threshold', threshold)
 
+#TODO 截取原图，把长方形纠正
+image, contours, hierarchy = cv2.findContours(threshold, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+
 cv2.waitKey(0)
