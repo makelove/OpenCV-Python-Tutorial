@@ -30,3 +30,10 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 
 ### 树莓派3b
 本人有一块【树莓派3b】开发板，也安装了OpenCV3，很好用，建议你们也买一块来玩一玩。
+
+
+## 教程资源
+- http://www.learnopencv.com/
+- http://www.pyimagesearch.com/
+- [YouTube上sentex的OpenCV视频教程](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
+-
