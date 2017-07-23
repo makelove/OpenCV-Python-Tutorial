@@ -33,6 +33,7 @@ hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
 #
 cap = cv2.VideoCapture('videos/礼让斑马线！齐齐哈尔城市文明的伤！.mp4')
+# cap = cv2.VideoCapture('../../data/TownCentreXVID.mp4')
 
 fps = cap.get(cv2.CAP_PROP_FPS)  # 25.0
 print("Frames per second using video.get(cv2.CAP_PROP_FPS) : {0}".format(fps))
