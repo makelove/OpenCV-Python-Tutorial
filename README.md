@@ -1,7 +1,7 @@
 # OpenCV-Python-Toturial
 
 ## http://www.opencv.org.cn/forum.php?mod=viewthread&tid=32525
-这个repo是这本书PDF的所有源代码，几乎都被测试过，能正常运行。
+这个repo是这本书PDF的所有源代码，几乎都被测试过，能正常运行。程序使用的图片和视频，都在data文件内。
 
 ### 平时会添加一些有趣的代码，实现某种功能。
 
