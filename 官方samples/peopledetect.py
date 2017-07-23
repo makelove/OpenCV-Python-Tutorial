@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 '''
+人类检测
+python peopledetect.py ../data/basketball1.png ../data/basketball2.png ../data/dnn/rgb.jpg
+
 example to detect upright people in images using HOG features
 
 Usage:
@@ -64,7 +67,7 @@ if __name__ == '__main__':
         draw_detections(img, found)
         draw_detections(img, found_filtered, 3)
         print('%d (%d) found' % (len(found_filtered), len(found)))
-        cv2.imshow('img', img)
+        cv2.imshow(fn, img)
         ch = cv2.waitKey()
         if ch == 27:
             break

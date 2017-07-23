@@ -39,5 +39,5 @@ warp=cv2.flip(warp,flipCode=1)
 
 cv2.imshow('src', img22)
 cv2.imshow('warp', warp)
-cv2.imwrite('crop0.jpg',warp)
+# cv2.imwrite('crop0.jpg',warp)
 cv2.waitKey(0)
