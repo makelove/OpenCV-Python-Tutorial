@@ -7,6 +7,7 @@
 """
 Pedestrian_Detection1.py:
 
+网址
 http://www.pyimagesearch.com/2015/11/09/pedestrian-detection-opencv/
 
 运行

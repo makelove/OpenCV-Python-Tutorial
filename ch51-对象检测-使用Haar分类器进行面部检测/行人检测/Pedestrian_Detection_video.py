@@ -5,7 +5,7 @@
 # @Software: PyCharm
 
 """
-Pedestrian_Detection_video.py:
+Pedestrian_Detection_video.py:检测视频里的行人
 
 视频网站
 https://v.qq.com/x/page/t0501y6jtfi.html
