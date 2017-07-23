@@ -27,6 +27,7 @@ propId 可以是 0 到 18 之 的任何整数。
 ret = cap.set(3, 640)#避免计算量过大
 ret = cap.set(4, 480)
 
+
 # while (True):
 while cap.isOpened():  # 检查是否成功初始化，否则就 使用函数 cap.open()
     # Capture frame-by-frame
