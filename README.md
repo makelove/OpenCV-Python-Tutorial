@@ -1,4 +1,4 @@
-# OpenCV-Python-Toturial
+# OpenCV-Python-Tutorial
 
 ## http://www.opencv.org.cn/forum.php?mod=viewthread&tid=32525
 这个repo是这本书PDF的所有源代码，几乎都被测试过，能正常运行。程序使用的图片和视频，都在data文件内。
