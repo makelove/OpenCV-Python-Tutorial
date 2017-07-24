@@ -65,5 +65,9 @@ for imagePath in paths.list_images(args["images"]):
 
     # show the output images
     cv2.imshow("Before NMS", orig)
+    cv2.moveWindow('Before NMS', x=0, y=0)
     cv2.imshow("After NMS", image)
-    cv2.waitKey(0)
+    cv2.moveWindow('After NMS', x=orig.shape[1], y=0)
+    k=cv2.waitKey(0)
+    if k==ord('q'):
+        break

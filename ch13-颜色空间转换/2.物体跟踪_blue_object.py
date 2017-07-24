@@ -20,32 +20,42 @@ import numpy as np
 cap = cv2.VideoCapture(0)
 ret = cap.set(3, 640)
 ret = cap.set(4, 480)
+
+# 定蓝色的阈值
+# lower = np.array([110, 50, 50])
+# upper = np.array([130, 255, 255])
+
+#黄色-乒乓球
+lower = np.array([20, 100, 100])
+upper = np.array([30, 255, 255])
+
+# 黑色
+# lower_black = np.array([0, 0, 0])
+# upper_black = np.array([180, 255, 30])
+
 while True:
     # 获取每一帧
     ret, frame = cap.read()
     # 换到 HSV
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-    # 定蓝色的阈值
-    lower_blue = np.array([110, 50, 50])
-    upper_blue = np.array([130, 255, 255])
-
-    # 黑色
-    # lower_black = np.array([0, 0, 0])
-    # upper_black = np.array([180, 255, 30])
 
     # 根据阈值构建掩模
-    mask = cv2.inRange(hsv, lower_blue, upper_blue)
+    mask = cv2.inRange(hsv, lower, upper)
     # mask = cv2.inRange(hsv, lower_black, upper_black)
     # 对原图像和掩模位运算
     res = cv2.bitwise_and(frame, frame, mask=mask)
 
     # 显示图像
     cv2.imshow('frame', frame)
+    cv2.moveWindow('frame', x=0, y=0)  # 原地
     cv2.imshow('mask', mask)
+    cv2.moveWindow('mask', x=frame.shape[1], y=0)#右边
     cv2.imshow('res', res)
+    cv2.moveWindow('res', y=frame.shape[0], x=0)#下边
 
     k = cv2.waitKey(1)  # & 0xFF
     if k == ord('q'):
         break
 # 关闭窗口
+cap.release()
 cv2.destroyAllWindows()
