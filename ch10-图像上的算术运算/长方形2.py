@@ -6,6 +6,10 @@
 
 """
 长方形1.py:
+
+https://stackoverflow.com/questions/42262198/4-point-persective-transform-failure
+透视变换矩阵
+
 [[[183 199]]
  [[ 69 214]]
  [[ 97 390]]

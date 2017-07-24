@@ -24,10 +24,10 @@ image, contours, hierarchy = cv2.findContours(threshold, cv2.RETR_TREE, cv2.CHAI
 
 areas = list()
 for i, cnt in enumerate(contours):
-    areas.append((i, cv2.contourArea(cnt)))
+    areas.append((i, cv2.contourArea(cnt)))#面积大小
 
 #
-a2 = sorted(areas, key=lambda d: d[1], reverse=True)
+a2 = sorted(areas, key=lambda d: d[1], reverse=True)#按面积大小，从大到小排序
 
 cv2.waitKey(0)#要先按一下键盘
 for i, are in a2:
