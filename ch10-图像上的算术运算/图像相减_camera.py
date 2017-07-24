@@ -76,5 +76,7 @@ while cap.isOpened():
     key = cv2.waitKey(delay=1)
     if key == ord("q"):
         break
+    elif key == ord("s"):
+        cv2.imwrite('poker-threshold.jpg',threshold)
 
 cv2.destroyAllWindows()
