@@ -34,6 +34,6 @@ ft.putText(img=img,
            line_type=cv2.LINE_AA,
            bottomLeftOrigin=True)
 
-cv2.imwrite('freetype.png', img)
+# cv2.imwrite('freetype.png', img)
 cv2.imshow('freetype', img)
 cv2.waitKey(0)

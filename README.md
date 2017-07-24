@@ -8,6 +8,8 @@
 官方英文教程：
 http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 
+运行:官方samples/demo.py 会有很多有趣的例子，介绍你去了解OpenCV的功能。
+
 
 ~~python 2.7 分支被废弃了，不再更新~~
 
@@ -36,4 +38,7 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 - http://www.learnopencv.com/
 - http://www.pyimagesearch.com/
 - [YouTube上sentex的OpenCV视频教程](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
+-
+
+## 新闻News
 -
