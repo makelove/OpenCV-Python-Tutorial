@@ -31,7 +31,7 @@ while True:
     print(counter)
 
     k = cv2.waitKey(1)  # & 0xff
-    if k == 27:
+    if k == ord('q'):
         break
 cap.release()
 cv2.destroyAllWindows()

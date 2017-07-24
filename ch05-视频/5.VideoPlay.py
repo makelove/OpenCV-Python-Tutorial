@@ -24,7 +24,7 @@ print('当前帧数', FRAME_NOW)  # 当前帧数 0.0
 frame_no = 121
 cap.set(1, frame_no)  # Where frame_no is the frame you want
 ret, frame = cap.read()  # Read the frame
-cv2.imshow('frame', frame)
+cv2.imshow('frame_no'+str(frame_no), frame)
 
 FRAME_NOW = cap.get(cv2.CAP_PROP_POS_FRAMES)
 print('当前帧数', FRAME_NOW)  # 当前帧数 122.0
