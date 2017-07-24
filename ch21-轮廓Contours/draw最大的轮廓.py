@@ -29,7 +29,7 @@ for i, cnt in enumerate(contours):
 #
 a2 = sorted(areas, key=lambda d: d[1], reverse=True)
 
-cv2.waitKey(0)
+cv2.waitKey(0)#要先按一下键盘
 for i, are in a2:
     if are < 150:
         continue
