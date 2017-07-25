@@ -18,14 +18,21 @@ cap = cv2.VideoCapture(0)  # 一般的笔 本电脑 有内置摄像头。所以�
 propId 可以是 0 到 18 之 的任何整数。
 
 其中的一些值可以使用 cap.set(propId,value) 来修改 value 就是 你想  置成的新值。
-例如 我可以使用 cap.get(3) 和 cap.get(4) 来查看每一帧的宽和 。   
+例如 我可以使用 cap.get(3) cv2.CAP_PROP_FRAME_WIDTH和 cap.get(4) cv2.CAP_PROP_FRAME_HEIGHT来查看每一帧的宽和高。   
 默认情况下得到的值是 640X480。但是我可以使用 ret=cap.set(3,320) 和 ret=cap.set(4,240) 来把宽和高改成 320X240。
 '''
 # ret=cap.set(3,320)
 # ret=cap.set(4,240)
 
-ret = cap.set(3, 640)#避免计算量过大
-ret = cap.set(4, 480)
+# ret = cap.set(cv2.CAP_PROP_FRAME_WIDTH, 480)#避免计算量过大
+# ret = cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 270)#
+#等比缩放
+frame_height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)#4 ，720
+frame_width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)#3   ，1280
+frame_height=int(480/frame_width*frame_height)#270
+ret = cap.set(cv2.CAP_PROP_FRAME_HEIGHT, frame_height)#高
+ret = cap.set(cv2.CAP_PROP_FRAME_WIDTH, 480)
+
 
 
 # while (True):
