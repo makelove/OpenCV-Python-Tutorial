@@ -6,6 +6,8 @@
 
 """
 camera_compare1.py:
+参考
+http://www.pyimagesearch.com/2014/09/15/python-compare-two-images/
 """
 
 from skimage.measure import compare_ssim as ssim
@@ -37,6 +39,7 @@ cap.read()
 cap.read()
 ret, frame = cap.read()
 temp = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+#TODO 前10帧
 while cap.isOpened():
     ret, frame = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -49,21 +52,21 @@ while cap.isOpened():
     temp = gray.copy()
     continue
 
-    # setup the figure
-    fig = plt.figure(title)
-    plt.suptitle("MSE: %.2f, SSIM: %.2f" % (m, s))
-
-    # show first image
-    ax = fig.add_subplot(1, 2, 1)
-    plt.imshow(temp, cmap=plt.cm.gray)
-    plt.axis("off")
-
-    # show the second image
-    ax = fig.add_subplot(1, 2, 2)
-    plt.imshow(gray, cmap=plt.cm.gray)
-    plt.axis("off")
-
-    # show the images
-    plt.show()
+    # # setup the figure
+    # fig = plt.figure(title)
+    # plt.suptitle("MSE: %.2f, SSIM: %.2f" % (m, s))
+    #
+    # # show first image
+    # ax = fig.add_subplot(1, 2, 1)
+    # plt.imshow(temp, cmap=plt.cm.gray)
+    # plt.axis("off")
+    #
+    # # show the second image
+    # ax = fig.add_subplot(1, 2, 2)
+    # plt.imshow(gray, cmap=plt.cm.gray)
+    # plt.axis("off")
+    #
+    # # show the images
+    # plt.show()
 
 
