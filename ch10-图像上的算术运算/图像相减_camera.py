@@ -27,6 +27,8 @@ cap.read()
 cap.read()
 cap.read()
 cap.read()
+cap.read()
+cap.read()
 '''
 cal=[cap.read()[1] for x in range(20)]
 
@@ -48,6 +50,7 @@ frame_no = 100
 ret, bgimg0 = cap.read()  # 背景
 bgimg = cv2.cvtColor(bgimg0, cv2.COLOR_BGR2GRAY)
 cv2.imshow('bgimg' + str(frame_no), bgimg0)
+# cv2.imwrite('desk_bgimg.jpg',bgimg)
 
 while cap.isOpened():
     ret, frame = cap.read()  # TODO 图像稳定
