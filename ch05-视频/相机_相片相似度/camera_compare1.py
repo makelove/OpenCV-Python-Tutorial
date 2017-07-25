@@ -45,6 +45,8 @@ while cap.isOpened():
     m = mse(temp, gray)
     s = ssim(temp, gray)
     print("MSE: %.2f, SSIM: %.2f" % (m, s))
+    #
+    temp = gray.copy()
     continue
 
     # setup the figure
@@ -64,5 +66,4 @@ while cap.isOpened():
     # show the images
     plt.show()
 
-    #
-    temp=gray
+
