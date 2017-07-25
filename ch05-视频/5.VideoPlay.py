@@ -20,7 +20,7 @@ print('高：', frame_height, '宽：', frame_width)
 FRAME_NOW = cap.get(cv2.CAP_PROP_POS_FRAMES)  # 第0帧
 print('当前帧数', FRAME_NOW)  # 当前帧数 0.0
 
-# 读取指定帧
+# 读取指定帧,对视频文件才有效，对摄像头无效？？
 frame_no = 121
 cap.set(1, frame_no)  # Where frame_no is the frame you want
 ret, frame = cap.read()  # Read the frame
