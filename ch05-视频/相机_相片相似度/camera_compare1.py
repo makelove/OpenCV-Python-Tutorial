@@ -8,6 +8,9 @@
 camera_compare1.py:
 参考
 http://www.pyimagesearch.com/2014/09/15/python-compare-two-images/
+
+均方误差（MSE）或结构相似性指数（SSIM）
+
 """
 
 from skimage.measure import compare_ssim as ssim
