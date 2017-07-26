@@ -39,4 +39,5 @@ if __name__ == '__main__':
         cv2.imshow("detected circles", cimg)
 
     cv2.imshow("source", src)
+    cv2.moveWindow('source',y=0,x=cimg.shape[1])
     cv2.waitKey(0)
