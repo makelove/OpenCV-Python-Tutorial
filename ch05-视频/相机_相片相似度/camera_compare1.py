@@ -14,10 +14,11 @@ http://www.pyimagesearch.com/2014/09/15/python-compare-two-images/
 """
 
 from skimage.measure import compare_ssim as ssim
+from skimage.measure import compare_mse as mse
 import matplotlib.pyplot as plt
 import numpy as np
 import cv2
-from utils import mse
+# from utils import mse
 
 cap = cv2.VideoCapture(0)
 
@@ -36,10 +37,10 @@ ret = cap.set(cv2.CAP_PROP_FRAME_WIDTH, 480)
 title='camera compare'
 plt.ion()
 
-cap.read()
-cap.read()
-cap.read()
-cap.read()
+# cap.read()
+# cap.read()
+# cap.read()
+# cap.read()
 ret, frame = cap.read()
 temp = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 #TODO 前10帧
