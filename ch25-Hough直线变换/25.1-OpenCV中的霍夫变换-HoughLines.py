@@ -37,7 +37,9 @@ for line in lines:
     y2 = int(y0 - 1000 * (a))
     cv2.line(img, (x1, y1), (x2, y2), (0, 0, 255), 2)
 
-# cv2.imwrite('houghlines3.jpg',img)
-cv2.imshow("houghlines3.jpg", img)
+    # cv2.imwrite('houghlines3.jpg',img)
+    cv2.imshow("houghlines3.jpg", img)
+    cv2.waitKey(1000)
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()
