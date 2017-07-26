@@ -38,7 +38,8 @@ while cap.isOpened():
     # cv2.imwrite('houghlines5.jpg',img)
     cv2.imshow("houghlines3.jpg", frame)
 
-    if cv2.waitKey(1) == ord("q"):
+    key = cv2.waitKey(1)
+    if key == ord("q"):
         break
 
 # When everything done, release the capture
