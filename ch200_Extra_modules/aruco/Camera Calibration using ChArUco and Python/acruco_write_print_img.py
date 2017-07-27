@@ -8,11 +8,10 @@
 acruco_write_print_img.py:
 """
 
-import time, cv2
-import cv2.aruco as A
+import cv2
 import numpy as np
 
-num=5
+num = 5
 
 dictionary = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
 # board = cv2.aruco.CharucoBoard_create(9, 9, .025, .0125, dictionary)
@@ -22,4 +21,5 @@ img = board.draw((200 * num, 200 * num))
 
 # Dump the calibration board to a file
 cv2.imwrite(f'charuco_{num}x{num}.png', img)
-#用打印机打印出来
+# 用打印机打印出来
+# 或放在平板电脑里
