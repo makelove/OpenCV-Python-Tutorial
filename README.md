@@ -4,6 +4,8 @@
 这个repo是这本书PDF的所有源代码，几乎都被测试过，能正常运行。程序使用的图片和视频，都在data文件内。
 
 ### 平时会添加一些有趣的代码，实现某种功能。
+官方文档api：
+http://docs.opencv.org/3.2.0/
 
 官方英文教程：
 http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
