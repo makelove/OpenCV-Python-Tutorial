@@ -28,7 +28,7 @@ cap = cv2.VideoCapture(0)
 allCorners = []
 allIds = []
 decimator = 0
-for i in range(100):
+for i in range(200):
 
     ret, frame = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -57,6 +57,9 @@ try:
     cal = cv2.aruco.calibrateCameraCharuco(allCorners, allIds, board, imsize, None, None)#return retval, cameraMatrix, distCoeffs, rvecs, tvecs
     print(cal)
     retval, cameraMatrix, distCoeffs, rvecs, tvecs = cal#TODO 然后怎么办？
+    #TODO saveCameraParams
+    np.savez('calib.npz',mtx=cameraMatrix,dist=distCoeffs,rvecs=rvecs,tvecs=tvecs)
+    # np.savez(outfile, x=x, y=y)
 except:
     cap.release()
 
