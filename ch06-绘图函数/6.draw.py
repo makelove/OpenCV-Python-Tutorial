@@ -20,6 +20,7 @@ img = np.zeros((512, 512, 3), np.uint8)
 cv2.line(img, pt1=(0, 0), pt2=(511, 511), color=(255, 0, 0), thickness=5)  # pt1, pt2, color, thickness=
 # cv2.polylines() 可以 用来画很多条线。只需要把想 画的线放在一 个列表中， 将 列表传给函数就可以了。每条线 会被独立绘制。 这会比用 cv2.line() 一条一条的绘制 要快一些。
 # cv2.polylines(img, pts, isClosed, color, thickness=None, lineType=None, shift=None)
+cv2.arrowedLine(img,pt1=(21, 13), pt2=(151, 401), color=(255, 0, 0), thickness=5)
 
 cv2.rectangle(img, (384, 0), (510, 128), (0, 255, 0), 3)
 
