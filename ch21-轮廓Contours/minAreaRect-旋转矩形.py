@@ -19,6 +19,10 @@ contours = [cnt for cnt in contours if cv2.contourArea(cnt) > 100]
 print('len(contours)', len(contours))
 cnt = contours[0]
 
+#方向是物体定向的角度
+(x, y), (MA, ma), angle = cv2.fitEllipse(cnt)
+print((x, y), (MA, ma), angle)
+
 rect = cv2.minAreaRect(cnt)
 box = cv2.boxPoints(rect)
 box = np.int0(box)

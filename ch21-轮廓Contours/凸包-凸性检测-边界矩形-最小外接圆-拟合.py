@@ -61,6 +61,8 @@ img = cv2.circle(img, center, radius, (0, 255, 0), 2)
 # 椭圆拟合
 # 使用的函数为 cv2.ellipse()  回值其实就是旋  界矩形的内切圆
 ellipse = cv2.fitEllipse(cnt)
+#((135.34278869628906, 134.22764587402344),(57.018402099609375, 166.91265869140625),136.8311767578125)
+angle=ellipse[2]
 im = cv2.ellipse(img, ellipse, (0, 255, 0), 2)
 
 # 直线拟合
