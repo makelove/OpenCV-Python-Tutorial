@@ -6,6 +6,8 @@
 
 """
 HoughCircles_camera.py:
+
+用围棋-棋子来测试
 """
 
 import cv2
@@ -67,23 +69,22 @@ while cap.isOpened():
     gray = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
     # edges = cv2.Canny(gray, 50, 150, apertureSize=3)
 
-    #HoughCircles(image, method, dp, minDist, circles=None, param1=None, param2=None, minRadius=None, maxRadius=None)
+    # HoughCircles(image, method, dp, minDist, circles=None, param1=None, param2=None, minRadius=None, maxRadius=None)
     # circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 20, param1=50, param2=30, minRadius=0, maxRadius=0)
     circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 20, param1=100, param2=30, minRadius=10, maxRadius=40)
 
     # circles = circles1[0, :, :]  # 提取为二维
     # circles = np.uint16(np.around(circles1))
     print(circles)
-    if circles is None:
-        continue
 
-    cimg=frame2
-    for i in circles[0, :]:
-    # for i in circles[:]:
-        # draw the outer circle
-        cv2.circle(cimg, (i[0], i[1]), i[2], (0, 255, 0), 2)
-        # draw the center of the circle
-        cv2.circle(cimg, (i[0], i[1]), 2, (0, 0, 255), 3)
+    cimg = frame2
+    if circles is not None:
+        for i in circles[0, :]:
+            # for i in circles[:]:
+            # draw the outer circle
+            cv2.circle(cimg, (i[0], i[1]), i[2], (0, 255, 0), 2)
+            # draw the center of the circle
+            cv2.circle(cimg, (i[0], i[1]), 2, (0, 0, 255), 3)
 
     # cv2.imshow('detected circles', cimg)
 
