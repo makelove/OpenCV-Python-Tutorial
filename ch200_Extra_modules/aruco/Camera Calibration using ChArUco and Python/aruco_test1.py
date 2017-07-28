@@ -58,7 +58,7 @@ try:
     print(cal)
     retval, cameraMatrix, distCoeffs, rvecs, tvecs = cal#TODO 然后怎么办？
     #TODO saveCameraParams
-    np.savez('calib.npz',mtx=cameraMatrix,dist=distCoeffs,rvecs=rvecs,tvecs=tvecs)
+    np.savez('calib.npz',mtx=cameraMatrix,dist=distCoeffs,rvecs=rvecs,tvecs=tvecs)#保存下载，下次不用校准了。
     # np.savez(outfile, x=x, y=y)
 except:
     cap.release()
