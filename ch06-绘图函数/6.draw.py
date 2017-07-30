@@ -37,6 +37,9 @@ pts = pts.reshape((-1, 1, 2))
 # 注意 如果第三个参数是 False 我们得到的多边形是不闭合的 ，首 尾不相  连 。
 
 font = cv2.FONT_HERSHEY_SIMPLEX
+#org :Bottom-left corner of the text string in the image.左下角
+#或使用 bottomLeftOrigin=True,文字会上下颠倒
+cv2.putText(img, text='bottomLeftOrigin', org=(10, 400), fontFace=font, fontScale=1, color=(255, 255, 255), thickness=1,bottomLeftOrigin=True)#text, org, fontFace, fontScale, color, thickness=
 cv2.putText(img, text='OpenCV', org=(10, 500), fontFace=font, fontScale=4, color=(255, 255, 255), thickness=2)#text, org, fontFace, fontScale, color, thickness=
 
 # 所有的绘图函数的返回值都是 None ，所以不能使用 img = cv2.line(img,(0,0),(5
