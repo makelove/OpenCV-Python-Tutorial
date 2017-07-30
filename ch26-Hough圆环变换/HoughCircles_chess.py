@@ -30,11 +30,17 @@ img = cv2.imread('../data/weiqi.png')
 
 img = cv2.medianBlur(img, 5)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+# ret, threshold = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)#不行
 cv2.imshow('gray', gray)
+# cv2.imshow('threshold', threshold)
+# cv2.waitKey(0)
 
 # HoughCircles(image, method, dp, minDist, circles=None, param1=None, param2=None, minRadius=None, maxRadius=None)
 # circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 20, param1=50, param2=30, minRadius=10, maxRadius=40)#有一些没有检测到
 circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 20, param1=100, param2=30, minRadius=10, maxRadius=50)
+
+if circles is None:
+    exit(-1)
 
 circles = np.uint16(np.around(circles))
 print(circles)
