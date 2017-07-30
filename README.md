@@ -43,4 +43,4 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 -
 
 ## 新闻News
-- a
+- http://www.opencv.org.cn/  http://www.cnros.org/ 被关闭
