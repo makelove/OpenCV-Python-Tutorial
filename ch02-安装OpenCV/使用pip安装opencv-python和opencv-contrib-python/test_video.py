@@ -12,7 +12,7 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-cap = cv2.VideoCapture('../../data/vtest.avi')
+cap = cv2.VideoCapture('../../data/vtest.avi')#不支持读取视频
 # cap = cv2.VideoCapture('output.avi')
 # cap = cv2.VideoCapture('Minions_banana.mp4')
 
@@ -32,13 +32,16 @@ FRAME_NOW = cap.get(cv2.CAP_PROP_POS_FRAMES)  # 第0帧
 print('当前帧数', FRAME_NOW)  # 当前帧数 0.0
 
 # 读取指定帧,对视频文件才有效，对摄像头无效？？
-frame_no = 121
-cap.set(1, frame_no)  # Where frame_no is the frame you want
+# frame_no = 121
+# cap.set(1, frame_no)  # Where frame_no is the frame you want
 ret, frame = cap.read()  # Read the frame
+print(ret, frame)
 # cv2.imshow('frame_no'+str(frame_no), frame)
 
 FRAME_NOW = cap.get(cv2.CAP_PROP_POS_FRAMES)
 print('当前帧数', FRAME_NOW)  # 当前帧数 122.0
 
-plt.imshow(thresh,cmap='gray')
-plt.show()
+if frame is not  None:
+    plt.imshow(frame)
+    # plt.imshow(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+    plt.show()
