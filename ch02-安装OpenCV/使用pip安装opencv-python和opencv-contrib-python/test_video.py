@@ -41,7 +41,7 @@ print(ret, frame)
 FRAME_NOW = cap.get(cv2.CAP_PROP_POS_FRAMES)
 print('当前帧数', FRAME_NOW)  # 当前帧数 122.0
 
-if frame is not  None:
+if frame is not  None:#出错
     plt.imshow(frame)
     # plt.imshow(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
     plt.show()
