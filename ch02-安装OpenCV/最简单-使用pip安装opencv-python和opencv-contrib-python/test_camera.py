@@ -21,5 +21,6 @@ while cap.isOpened():
     ret, frame = cap.read()
     plt.imshow(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
     plt.show()
+    # plt.show(block=False)#可选
     plt.pause(0.1)
 # plt.show()
