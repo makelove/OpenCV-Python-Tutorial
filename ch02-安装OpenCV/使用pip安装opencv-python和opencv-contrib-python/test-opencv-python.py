@@ -5,11 +5,12 @@
 # @Software: PyCharm
 
 """
-test1-opencv-python.py:
+test-opencv-python.py:
 """
 
 import numpy as np
 import cv2
+from matplotlib import pyplot as plt
 
 print(cv2.__version__, cv2.__doc__)
 
@@ -31,5 +32,11 @@ ret, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTS
 cv2.error: /Users/travis/build/skvark/opencv-python/opencv/modules/highgui/src/window.cpp:583: error: (-2) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Carbon support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function cvShowImage
 '''
 
-cv2.imwrite('messi5-gray.jpg', gray)
-cv2.imwrite('messi5-thresh.jpg', thresh)
+#使用matplotlib来显示
+plt.imshow(thresh,cmap='gray')
+plt.show()
+
+
+#可以把结果写入jpg文件
+# cv2.imwrite('messi5-gray.jpg', gray)
+# cv2.imwrite('messi5-thresh.jpg', thresh)
