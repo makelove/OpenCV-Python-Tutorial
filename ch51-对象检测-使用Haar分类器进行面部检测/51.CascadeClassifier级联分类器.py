@@ -40,7 +40,8 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # have to retain it.
 # minSize – Minimum possible object size. Objects smaller than that are ignored.
 # maxSize – Maximum possible object size. Objects larger than that are ignored.
-faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+# faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30), flags=cv2.CASCADE_SCALE_IMAGE)#改进
 print("Detected ", len(faces), " face")
 
 for (x, y, w, h) in faces:

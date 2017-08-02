@@ -25,7 +25,8 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # cv2.imshow('gray', gray)
 
 
-faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+# faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30), flags=cv2.CASCADE_SCALE_IMAGE)
 print("Detected ", len(faces), " face")
 
 plt.ion()
@@ -40,11 +41,11 @@ for (x, y, w, h) in faces:
         plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
         plt.show()
         # cv2.waitKey(500)
-        plt.pause(2)
+        plt.pause(1)
         # sleep(2)
     # sleep(2)
     # cv2.waitKey(500)
-    plt.pause(2)
+    plt.pause(1)
 
 # plt.show()
 plt.show(block=True)
