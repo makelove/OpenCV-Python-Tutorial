@@ -27,6 +27,13 @@ print('butterfly.shape:', butterfly.shape)
 cv2.imshow('src', img)
 cv2.moveWindow('src', 0, 0)
 
+# read color values at position y, x
+y = 100
+x = 50
+(b, g, r) = img[y, x]
+# print color values to screen
+print('bgr:',b,g,r)
+
 #先行后列
 img[100:100 + logo.shape[0], 300:300 + logo.shape[1]] = logo[:, :, 0:3]# 两张图片的shape不一样
 # img[10:10+logo.shape[0],30:30+logo.shape[1],:]=logo[:,:,0:3]
