@@ -1,3 +1,5 @@
+![basics](OpenCV-axis-basics.png "basics")
+
 
 关于图像坐标系与行列宽高的对应关系大致如下:
 - row == height == Point.y

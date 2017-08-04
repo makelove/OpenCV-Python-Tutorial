@@ -35,6 +35,7 @@ x = 50
 print('bgr:',b,g,r)
 
 #先行后列
+#img[y:y+height,x:width]
 img[100:100 + logo.shape[0], 300:300 + logo.shape[1]] = logo[:, :, 0:3]# 两张图片的shape不一样
 # img[10:10+logo.shape[0],30:30+logo.shape[1],:]=logo[:,:,0:3]
 img[300:300 + logo.shape[1], 100:100 + logo.shape[0]] = butterfly[:, :, 0:3]
