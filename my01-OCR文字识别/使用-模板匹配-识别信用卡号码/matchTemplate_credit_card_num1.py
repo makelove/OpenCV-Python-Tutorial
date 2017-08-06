@@ -141,7 +141,7 @@ thresh = cv2.threshold(gradX, 0, 255,
 thresh = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, sqKernel)
 
 # find contours in the thresholded image, then initialize the
-# list of digit locations
+# list of digit locations找到轮廓并初始化数字分组位置列表。
 cnts = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL,
                         cv2.CHAIN_APPROX_SIMPLE)
 cnts = cnts[0] if imutils.is_cv2() else cnts[1]
@@ -156,10 +156,10 @@ for (i, c) in enumerate(cnts):
 
     # since credit cards used a fixed size fonts with 4 groups
     # of 4 digits, we can prune potential contours based on the
-    # aspect ratio
+    # aspect ratio根据每个轮廓的宽高比进行过滤
     if ar > 2.5 and ar < 4.0:
         # contours can further be pruned on minimum/maximum width
-        # and height
+        # and height使用纵横比，我们分析每个轮廓的形状。如果 ar   在2.5到4.0之间（比它高），以及  40到55个像素之间的 w以及   10到20像素之间的h，我们将一个方便的元组的边界矩形参数附加到 locs
         if (w > 40 and w < 55) and (h > 10 and h < 20):
             # append the bounding box region of the digits group
             # to our locations list
@@ -184,9 +184,11 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
 
     # detect the contours of each individual digit in the group,
     # then sort the digit contours from left to right
-    digitCnts = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL,
-                                 cv2.CHAIN_APPROX_SIMPLE)
-    digitCnts = digitCnts[0] if imutils.is_cv2() else digitCnts[1]
+    digitCnts = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+    cv2.imshow('digitCnts',digitCnts[0])
+    cv2.waitKey(1000)
+    # digitCnts = digitCnts[0] if imutils.is_cv2() else digitCnts[1]
+    digitCnts =digitCnts[1]
     # digitCnts = contours.sort_contours(digitCnts,method="left-to-right")[0]
 
     # loop over the digit contours
