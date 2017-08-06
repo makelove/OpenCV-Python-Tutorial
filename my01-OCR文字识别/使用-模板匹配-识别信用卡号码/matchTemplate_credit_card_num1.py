@@ -55,7 +55,7 @@ ref = cv2.imread(args["reference"])
 ref = cv2.cvtColor(ref, cv2.COLOR_BGR2GRAY)
 ref = cv2.threshold(ref, 10, 255, cv2.THRESH_BINARY_INV)[1]
 
-cv2.imshow('ref',ref)
+cv2.imshow('ref', ref)
 cv2.waitKey(0)
 
 '''
@@ -88,12 +88,12 @@ for (i, c) in enumerate(refCnts):
 print('digits:',digits.keys())
 '''
 
-#try1
+# try1
 digits = {}
-rows,cols=ref.shape
-per=int(cols/10)
+rows, cols = ref.shape
+per = int(cols / 10)
 for x in range(10):
-    roi = ref[:, x*per:(x+1)*per]
+    roi = ref[:, x * per:(x + 1) * per]
     roi = cv2.resize(roi, (57, 88))
     cv2.imshow('roi', roi)
     cv2.waitKey(500)
@@ -101,10 +101,10 @@ for x in range(10):
     # update the digits dictionary, mapping the digit name to the ROI
     digits[x] = roi
 # 从参考图像中提取数字，并将其与相应的数字名称相关联
-print('digits:',digits.keys())
+print('digits:', digits.keys())
 
 # 初始化一对结构化的内核：
-#您可以将内核看作是一个小矩阵，我们在图像上滑动以进行（卷积）操作，例如模糊，锐化，边缘检测或其他图像处理操作。
+# 您可以将内核看作是一个小矩阵，我们在图像上滑动以进行（卷积）操作，例如模糊，锐化，边缘检测或其他图像处理操作。
 # initialize a rectangular (wider than it is tall) and square
 # structuring kernel
 rectKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (9, 3))
@@ -184,11 +184,11 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
 
     # detect the contours of each individual digit in the group,
     # then sort the digit contours from left to right
-    digitCnts = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
-    cv2.imshow('digitCnts',digitCnts[0])
+    digitCnts = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    cv2.imshow('digitCnts', digitCnts[0])
     cv2.waitKey(1000)
     # digitCnts = digitCnts[0] if imutils.is_cv2() else digitCnts[1]
-    digitCnts =digitCnts[1]
+    digitCnts = digitCnts[1]
     # digitCnts = contours.sort_contours(digitCnts,method="left-to-right")[0]
 
     # loop over the digit contours
@@ -224,7 +224,7 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
     output.extend(groupOutput)
 
 # display the output credit card information to the screen
-print("Credit Card Type: {}".format(FIRST_NUMBER.get(output[0],'None')))
+print("Credit Card Type: {}".format(FIRST_NUMBER.get(output[0], 'None')))
 print("Credit Card #: {}".format("".join(output)))
-cv2.imshow("Image", image)
+cv2.imshow("Image", image)  # TODO 效果不是很好，需要改进
 cv2.waitKey(0)
