@@ -14,6 +14,12 @@ python ocr_template_match.py --reference ocr_a_reference.png --image images/cred
 Credit Card Type: Visa
 Credit Card #: 4000123456789010
 
+
+检测图像中信用卡的位置。
+本地化四位数字，与信用卡上十六位数相关。
+应用OCR来识别信用卡上的十六位数字。
+识别信用卡类型（即Visa，万事达卡，美国运通等）。
+
 """
 
 # import the necessary packages
@@ -23,7 +29,7 @@ import argparse
 import imutils
 import cv2
 
-# construct the argument parser and parse the arguments
+# construct the argument parser and parse the arguments解析命令行参数
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True,
                 help="path to input image")
@@ -49,13 +55,20 @@ ref = cv2.imread(args["reference"])
 ref = cv2.cvtColor(ref, cv2.COLOR_BGR2GRAY)
 ref = cv2.threshold(ref, 10, 255, cv2.THRESH_BINARY_INV)[1]
 
+cv2.imshow('ref',ref)
+cv2.waitKey(0)
+
+'''
 # find contours in the OCR-A image (i.e,. the outlines of the digits)
 # sort them from left to right, and initialize a dictionary to map
 # digit name to the ROI
-refCnts = cv2.findContours(ref.copy(), cv2.RETR_EXTERNAL,
-                           cv2.CHAIN_APPROX_SIMPLE)
-refCnts = refCnts[0] if imutils.is_cv2() else refCnts[1]
+# refCnts = cv2.findContours(ref.copy(), cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)#有问题
+refCnts = cv2.findContours(ref.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+# refCnts = refCnts[0] if imutils.is_cv2() else refCnts[1]
+refCnts = refCnts[1]
+print('len cnt:',len(refCnts))
 refCnts = contours.sort_contours(refCnts, method="left-to-right")[0]
+print('sort_contours len cnt:',len(refCnts))
 digits = {}
 
 # 循环浏览轮廓，提取ROI并将其与相应的数字相关联
@@ -66,11 +79,29 @@ for (i, c) in enumerate(refCnts):
     (x, y, w, h) = cv2.boundingRect(c)
     roi = ref[y:y + h, x:x + w]
     roi = cv2.resize(roi, (57, 88))
+    cv2.imshow('roi', roi)
+    cv2.waitKey(500)
 
     # update the digits dictionary, mapping the digit name to the ROI
     digits[i] = roi
 # 从参考图像中提取数字，并将其与相应的数字名称相关联
+print('digits:',digits.keys())
+'''
 
+#try1
+digits = {}
+rows,cols=ref.shape
+per=int(cols/10)
+for x in range(10):
+    roi = ref[:, x*per:(x+1)*per]
+    roi = cv2.resize(roi, (57, 88))
+    cv2.imshow('roi', roi)
+    cv2.waitKey(500)
+
+    # update the digits dictionary, mapping the digit name to the ROI
+    digits[x] = roi
+# 从参考图像中提取数字，并将其与相应的数字名称相关联
+print('digits:',digits.keys())
 
 # 初始化一对结构化的内核：
 # initialize a rectangular (wider than it is tall) and square
@@ -155,8 +186,7 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
     digitCnts = cv2.findContours(group.copy(), cv2.RETR_EXTERNAL,
                                  cv2.CHAIN_APPROX_SIMPLE)
     digitCnts = digitCnts[0] if imutils.is_cv2() else digitCnts[1]
-    digitCnts = contours.sort_contours(digitCnts,
-                                       method="left-to-right")[0]
+    # digitCnts = contours.sort_contours(digitCnts,method="left-to-right")[0]
 
     # loop over the digit contours
     for c in digitCnts:
@@ -191,7 +221,7 @@ for (i, (gX, gY, gW, gH)) in enumerate(locs):
     output.extend(groupOutput)
 
 # display the output credit card information to the screen
-print("Credit Card Type: {}".format(FIRST_NUMBER[output[0]]))
+print("Credit Card Type: {}".format(FIRST_NUMBER.get(output[0],'None')))
 print("Credit Card #: {}".format("".join(output)))
 cv2.imshow("Image", image)
 cv2.waitKey(0)
