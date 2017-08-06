@@ -1,3 +1,5 @@
+https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
+
 我们将学习如何以及何时使用OpenCV 3.2 - BOOSTING，MIL，KCF，TLD，MEDIANFLOW和GOTURN中提供的6种不同的跟踪器。我们还将学习现代跟踪算法背后的一般理论。
 简单地说，在视频的连续帧中定位对象称为`跟踪`。
 
