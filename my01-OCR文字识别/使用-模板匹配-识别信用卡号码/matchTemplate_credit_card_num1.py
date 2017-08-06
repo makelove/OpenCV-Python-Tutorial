@@ -67,7 +67,7 @@ refCnts = cv2.findContours(ref.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 # refCnts = refCnts[0] if imutils.is_cv2() else refCnts[1]
 refCnts = refCnts[1]
 print('len cnt:',len(refCnts))
-refCnts = contours.sort_contours(refCnts, method="left-to-right")[0]
+refCnts = contours.sort_contours(refCnts, method="left-to-right")[0]#排列轮廓，没意义
 print('sort_contours len cnt:',len(refCnts))
 digits = {}
 
@@ -104,6 +104,7 @@ for x in range(10):
 print('digits:',digits.keys())
 
 # 初始化一对结构化的内核：
+#您可以将内核看作是一个小矩阵，我们在图像上滑动以进行（卷积）操作，例如模糊，锐化，边缘检测或其他图像处理操作。
 # initialize a rectangular (wider than it is tall) and square
 # structuring kernel
 rectKernel = cv2.getStructuringElement(cv2.MORPH_RECT, (9, 3))

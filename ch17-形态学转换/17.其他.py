@@ -8,6 +8,7 @@ img = cv2.imread('j.png', 0)
 cv2.imshow('j.png', img)
 print(img.shape)
 
+#您可以将内核看作是一个小矩阵，我们在图像上滑动以进行（卷积）操作，例如模糊，锐化，边缘检测或其他图像处理操作。
 kernel = np.ones((5, 5), np.uint8)
 
 # 开运算：先腐蚀再膨胀就叫做开运算。就像我们上 介绍的 样， 它 用来，去噪声。
