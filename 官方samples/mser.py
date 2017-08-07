@@ -2,6 +2,7 @@
 
 '''
 MSER detector demo
+MSER区域检测
 ==================
 
 Usage:
