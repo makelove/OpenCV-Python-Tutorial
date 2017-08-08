@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/32125281/removing-watermark-out-of-an-image-using-opencv
