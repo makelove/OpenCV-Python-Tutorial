@@ -43,14 +43,18 @@ correct = np.count_nonzero(matches)
 accuracy = correct * 100.0 / result.size
 print('准确率', accuracy)  # 准确率91%
 
-#
+''''''
 # save the data
-np.savez('knn_data.npz', train=train, train_labels=train_labels)
+np.savez('knn_data.npz', train=train, train_labels=train_labels,test=test,test_labels=test_labels)
 # Now load the data
 with np.load('knn_data.npz') as data:
     print(data.files)
     train = data['train']
     train_labels = data['train_labels']
+    test = data['test']
+    test_labels = data['test_labels']
 
 
 #TODO 怎样预测数字？
+# knn.predict?
+# Docstring: predict(samples[, results[, flags]]) -> retval, results
