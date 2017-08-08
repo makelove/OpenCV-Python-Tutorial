@@ -30,3 +30,5 @@ correct = np.count_nonzero(result == labels)
 accuracy = correct * 100.0 / 10000
 print(accuracy)
 #准确率 到了 93.22%。同样你可以  增加 练样本的数 来提 准确 率。
+
+#TODO 怎样预测字母？
