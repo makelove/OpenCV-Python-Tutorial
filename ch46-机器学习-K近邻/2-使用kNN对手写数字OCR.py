@@ -43,9 +43,10 @@ correct = np.count_nonzero(matches)
 accuracy = correct * 100.0 / result.size
 print('准确率', accuracy)  # 准确率91.76%
 
-''''''
+
 # save the data
 np.savez('knn_data.npz', train=train, train_labels=train_labels,test=test,test_labels=test_labels)
+
 # Now load the data
 with np.load('knn_data.npz') as data:
     print(data.files)
@@ -56,5 +57,8 @@ with np.load('knn_data.npz') as data:
 
 
 #TODO 怎样预测数字？
-retval, results=knn.predict(test[3:5])
+retval, results=knn.predict(test[1003:1005])
 # Docstring: predict(samples[, results[, flags]]) -> retval, results
+print(retval, results)#(4.0, array([[ 4.],[ 4.]], dtype=float32))
+#对比
+cv2.imwrite('test[1005].jpg',test[1005].reshape((20,20)))

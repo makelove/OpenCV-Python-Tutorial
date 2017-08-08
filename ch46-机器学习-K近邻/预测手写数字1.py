@@ -19,6 +19,28 @@ with np.load('knn_data.npz') as data:
     test = data['test']
     test_labels = data['test_labels']
 
+print('加载KNN,数据')
 knn = cv2.ml.KNearest_create()
 knn.train(train, cv2.ml.ROW_SAMPLE, train_labels)
 ret, result, neighbours, dist = knn.findNearest(test, k=5)
+
+# 加载相片
+print('加载相片')
+img2 = cv2.imread('2.png', 0)
+gray2 = cv2.resize(img2, (20, 20))
+# gray2=gray2.reshape((400,))
+gray21 = gray2.reshape((-1, 400)).astype(np.float32)
+
+img6 = cv2.imread('6.png', 0)
+gray6 = cv2.resize(img6, (20, 20))
+# gray2=gray2.reshape((400,))
+gray61 = gray6.reshape((-1, 400)).astype(np.float32)
+
+g2 = np.append(gray21, gray61)
+g3 = g2.reshape((2, 400))
+
+# 预测
+retval, results = knn.predict(g3)
+print(retval, results)  # 不准确
+# (0.0, array([[ 0.],
+#         [ 5.]], dtype=float32))
