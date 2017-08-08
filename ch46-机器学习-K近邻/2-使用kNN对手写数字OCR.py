@@ -41,7 +41,7 @@ ret, result, neighbours, dist = knn.findNearest(test, k=5)
 matches = result == test_labels
 correct = np.count_nonzero(matches)
 accuracy = correct * 100.0 / result.size
-print('准确率', accuracy)  # 准确率91%
+print('准确率', accuracy)  # 准确率91.76%
 
 ''''''
 # save the data
@@ -56,5 +56,5 @@ with np.load('knn_data.npz') as data:
 
 
 #TODO 怎样预测数字？
-# knn.predict?
+retval, results=knn.predict(test[3:5])
 # Docstring: predict(samples[, results[, flags]]) -> retval, results
