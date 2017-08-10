@@ -6,6 +6,9 @@
 
 """
 预测手写数字1.py:
+
+验证码
+https://login.bthhotels.com/
 """
 
 import numpy as np
@@ -13,7 +16,7 @@ import cv2
 from matplotlib import pyplot as plt
 
 with np.load('knn_data_num.npz') as data:
-    print(data.files)
+    print(data.files)  # ['train', 'train_labels', 'test', 'test_labels']
     train = data['train']
     train_labels = data['train_labels']
     test = data['test']
@@ -22,7 +25,6 @@ with np.load('knn_data_num.npz') as data:
 print('加载KNN,数据')
 knn = cv2.ml.KNearest_create()
 knn.train(train, cv2.ml.ROW_SAMPLE, train_labels)
-ret, result, neighbours, dist = knn.findNearest(test, k=5)
 
 # 加载相片
 print('加载相片')

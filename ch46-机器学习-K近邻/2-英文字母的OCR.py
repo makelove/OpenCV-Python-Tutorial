@@ -28,14 +28,11 @@ ret, result, neighbours, dist = knn.findNearest(testData, k=5)
 
 correct = np.count_nonzero(result == labels)
 accuracy = correct * 100.0 / 10000
-print(accuracy)
+print('准确率', accuracy)#93.06
 #准确率 到了 93.22%。同样你可以  增加训练样本的数量来提 准确率。
 
-with np.load('knn_data_alphabet.npz') as data:
-    print(data.files)
-    train = data['train']
-    train_labels = data['train_labels']
-    test = data['test']
-    test_labels = data['test_labels']
+
+# save the data
+np.savez('knn_data_alphabet.npz', train_alphabet=train, train_labels_alphabet=responses,test_alphabet=testData,test_labels_alphabet=labels)
 
 #怎样预测字母？跟预测数字的一样
