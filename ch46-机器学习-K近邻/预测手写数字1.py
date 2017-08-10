@@ -12,7 +12,7 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-with np.load('knn_data.npz') as data:
+with np.load('knn_data_num.npz') as data:
     print(data.files)
     train = data['train']
     train_labels = data['train_labels']

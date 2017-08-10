@@ -48,7 +48,7 @@ print('准确率', accuracy)  # 准确率91.76%
 np.savez('knn_data.npz', train=train, train_labels=train_labels,test=test,test_labels=test_labels)
 
 # Now load the data
-with np.load('knn_data.npz') as data:
+with np.load('knn_data_num.npz') as data:
     print(data.files)
     train = data['train']
     train_labels = data['train_labels']
