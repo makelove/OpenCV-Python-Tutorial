@@ -24,10 +24,11 @@ while cap0.isOpened() and cap1.isOpened():
 
     if ret0:
         cv2.imshow('frame0', frame0)
+        cv2.setWindowTitle('frame0','On Top')
     if ret1:
         cv2.imshow('frame1', frame1)
         # cv2.moveWindow('frame1', x=frame0.shape[1], y=0)
-        cv2.moveWindow('frame1', x=320, y=10)
+        cv2.moveWindow('frame1', x=320, y=40)
 
     key = cv2.waitKey(delay=2)
     if key == ord("q"):
