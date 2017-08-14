@@ -27,7 +27,7 @@ while cap0.isOpened() and cap1.isOpened():
     if ret1:
         cv2.imshow('frame1', frame1)
         # cv2.moveWindow('frame1', x=frame0.shape[1], y=0)
-        cv2.moveWindow('frame1', x=240, y=0)
+        cv2.moveWindow('frame1', x=320, y=10)
 
     key = cv2.waitKey(delay=2)
     if key == ord("q"):
