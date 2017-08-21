@@ -35,6 +35,10 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 ### 树莓派3b
 本人有一块【树莓派3b】开发板，也安装了OpenCV3，很好用，建议你们也买一块来玩一玩。
 
+### 摄像头
+* MacBook pro自带
+* 淘宝，[130W像素高清摄像头模组 720P 1280x720 USB2.0免驱 微距模块](https://item.taobao.com/item.htm?id=17338719222)
+* 淘宝，[树莓派3代B Raspberry Pi USB摄像头，免驱动](https://item.taobao.com/item.htm?id=537977952154)
 
 ## 教程资源
 - http://www.learnopencv.com/
