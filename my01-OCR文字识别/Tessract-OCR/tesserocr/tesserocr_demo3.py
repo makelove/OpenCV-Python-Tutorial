@@ -10,7 +10,9 @@ from PIL import Image
 from tesserocr import PyTessBaseAPI, PSM
 
 with PyTessBaseAPI(psm=PSM.AUTO_OSD) as api:
-    image = Image.open("/usr/src/tesseract/testing/eurotext.tif")#No such file
+    # image = Image.open("/usr/src/tesseract/testing/eurotext.tif")#No such file
+    # image = Image.open("eurotext.tif")
+    image = Image.open('phototest.tif')
     api.SetImage(image)
     api.Recognize()
 
@@ -20,3 +22,6 @@ with PyTessBaseAPI(psm=PSM.AUTO_OSD) as api:
     print("WritingDirection: {:d}".format(direction))
     print("TextlineOrder: {:d}".format(order))
     print("Deskew angle: {:.4f}".format(deskew_angle))
+    #
+    ocrResult = api.GetUTF8Text()
+    print('result:\n',ocrResult)
