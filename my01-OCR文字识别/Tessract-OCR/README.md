@@ -7,7 +7,9 @@ http://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/
 * ubuntu: sudo apt-get install tesseract-ocr
 * pip install pillow
 * pip install pytesseract
+* pip install tesserocr
 
+# tesserocr更好用
 
 ## 运行
 * 标准输出，不用输出到TXT文件:
