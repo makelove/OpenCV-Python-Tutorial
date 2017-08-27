@@ -49,7 +49,7 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 ## 新闻News
 - http://www.opencv.org.cn/  被关闭
 - [OpenCV 3.3发布了](http://opencv.org/opencv-3-3.html) 
-    1. 主要消息是我们将DNN模块从opencv_contrib推广到主存储库，改进和加速了很多。不再需要外部BLAS实现。对于GPU，使用Halide（http://halide-lang.org）进行实验性DNN加速。有关该模块的详细信息可以在我们的wiki中找到：OpenCV中的深度学习。
+    1. 主要消息是我们将DNN模块从opencv_contrib推广到主存储库，改进和加速了很多。不再需要外部BLAS实现。对于GPU，使用Halide（http://halide-lang.org）进行实验性DNN加速。有关该模块的详细信息可以在我们的wiki中找到：[OpenCV中的深度学习](https://github.com/opencv/opencv/wiki/Deep-Learning-in-OpenCV)。
     2. OpenCV现在可以使用标志ENABLE_CXX11构建为C ++ 11库。添加了C ++ 11程序员的一些很酷的功能。
     3. 由于“动态调度”功能，我们还在OpenCV的默认版本中启用了不少AVX / AVX2和SSE4.x优化。DNN模块还具有一些AVX / AVX2优化。
 Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的视频编码/解码。支持MPEG1 / 2，以及H.264。
