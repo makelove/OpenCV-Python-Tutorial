@@ -58,3 +58,10 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     6. 有关OpenCV 3.3的更改和新功能的更多详细信息，请访问https://github.com/opencv/opencv/wiki/ChangeLog。
     7. [下载OpenCV 3.3](https://github.com/opencv/opencv/releases/tag/3.3.0)
     8. [安装OpenCV 3.3](http://www.linuxfromscratch.org/blfs/view/cvs/general/opencv.html)
+
+## 怎样翻墙？使用Google搜索引擎和YouTube视频教程
+- shadowsocks
+- [Lantern蓝灯](https://github.com/getlantern/lantern/releases/tag/latest)
+    1. 可以免费使用，但用完800m流量后会限速，还能正常使用，就是有点慢
+    2. 专业版不贵，2年336元，每天0.46元。[购买流程](https://github.com/getlantern/forum/issues/3863)
+    3. 邀请好友来获得更多的专业版使用时间。我的邀请码：GW2362
