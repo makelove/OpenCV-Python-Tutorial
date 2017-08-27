@@ -24,6 +24,8 @@ headers = {'User-Agent': user_agent}
 url = 'http://www.bjsuperpass.com/captcha.svl?d=1503144107405'
 rs = requests.get(url, headers=headers, timeout=10)
 print('获取公交一卡通网站的验证码',rs.status_code)
+#TODO 获取cookies
+
 
 print('用BytesIO导入到Image，Numpy，Opencv')
 s1 = BytesIO(rs.content)  # img = Image.open(BytesIO(resp.read()))
@@ -43,3 +45,4 @@ ocr.SetVariable("tessedit_char_whitelist", "0123456789abcdefghijklmnopqrstuvwxyz
 # ocr.SetImage(img)
 
 print('验证码是',tesserocr.image_to_text(img))
+#TODO 发送cookies
