@@ -48,3 +48,11 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 
 ## 新闻News
 - http://www.opencv.org.cn/  被关闭
+- [OpenCV 3.3发布了](http://opencv.org/opencv-3-3.html) 
+    1. 主要消息是我们将DNN模块从opencv_contrib推广到主存储库，改进和加速了很多。不再需要外部BLAS实现。对于GPU，使用Halide（http://halide-lang.org）进行实验性DNN加速。有关该模块的详细信息可以在我们的wiki中找到：OpenCV中的深度学习。
+    2. OpenCV现在可以使用标志ENABLE_CXX11构建为C ++ 11库。添加了C ++ 11程序员的一些很酷的功能。
+    3. 由于“动态调度”功能，我们还在OpenCV的默认版本中启用了不少AVX / AVX2和SSE4.x优化。DNN模块还具有一些AVX / AVX2优化。
+Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的视频编码/解码。支持MPEG1 / 2，以及H.264。
+    4. 嵌入OpenCV Intel IPP子集已从2015.12升级到2017.2版本，从而在我们的核心和imgproc perf测试中提高了15％的速度。
+    5. 716拉请求已经合并，588我们的错误跟踪器中的问题已经关闭，因为OpenCV 3.2。另外，我们通过一些严格的静态分析仪工具运行OpenCV，并修复了检测到的问题。所以OpenCV 3.3应该是非常稳定和可靠的释放。
+    6. 有关OpenCV 3.3的更改和新功能的更多详细信息，请访问https://github.com/opencv/opencv/wiki/ChangeLog。
