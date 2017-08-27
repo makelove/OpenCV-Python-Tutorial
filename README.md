@@ -57,3 +57,4 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     5. 716拉请求已经合并，588我们的错误跟踪器中的问题已经关闭，因为OpenCV 3.2。另外，我们通过一些严格的静态分析仪工具运行OpenCV，并修复了检测到的问题。所以OpenCV 3.3应该是非常稳定和可靠的释放。
     6. 有关OpenCV 3.3的更改和新功能的更多详细信息，请访问https://github.com/opencv/opencv/wiki/ChangeLog。
     7. [下载OpenCV 3.3](https://github.com/opencv/opencv/releases/tag/3.3.0)
+    8. [安装OpenCV 3.3](http://www.linuxfromscratch.org/blfs/view/cvs/general/opencv.html)
