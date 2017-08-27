@@ -38,7 +38,7 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 ### 摄像头
 * MacBook pro自带
 * 淘宝，[130W像素高清摄像头模组 720P 1280x720 USB2.0免驱 微距模块](https://item.taobao.com/item.htm?id=17338719222)
-* 淘宝，[树莓派3代B Raspberry Pi USB摄像头，免驱动](https://item.taobao.com/item.htm?id=537977952154)
+* 淘宝，[树莓派3代B Raspberry Pi USB摄像头，免驱动](https://item.taobao.com/item.htm?id=537977952154) 不好用，可视角度太小！
 
 ## 教程资源
 - http://www.learnopencv.com/
