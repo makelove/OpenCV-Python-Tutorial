@@ -59,7 +59,7 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     7. [下载OpenCV 3.3](https://github.com/opencv/opencv/releases/tag/3.3.0)
     8. [安装OpenCV 3.3](http://www.linuxfromscratch.org/blfs/view/cvs/general/opencv.html)
 
-## 怎样翻墙？使用Google搜索引擎和YouTube视频教程
+## 怎样翻墙？使用Google搜索引擎，观看YouTube视频教程
 - shadowsocks
 - [Lantern蓝灯](https://github.com/getlantern/lantern/releases/tag/latest)
     1. 可以免费使用，但用完800m流量后会限速，还能正常使用，就是有点慢
