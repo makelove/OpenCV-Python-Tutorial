@@ -30,7 +30,7 @@ while True:
     cv2.imshow(winName, cam.read()[1])  # comment to hide window
     if cv2.countNonZero(diffImg(t_minus, t, t_plus)) > threshold and timeCheck != datetime.now().strftime('%Ss'):
         dimg = cam.read()[1]
-        cv2.imwrite(datetime.now().strftime('%Y%m%d_%Hh%Mm%Ss%f') + '.jpg', dimg)
+        # cv2.imwrite(datetime.now().strftime('%Y%m%d_%Hh%Mm%Ss%f') + '.jpg', dimg)
     timeCheck = datetime.now().strftime('%Ss')
     # Read next image
     t_minus = t
