@@ -6,6 +6,7 @@
 
 """
 camera_calibration1.py:
+参考：http://blog.csdn.net/dcrmg/article/details/52939318
 
 有结果，但是摄像头分辨率太高，程序运行太慢了
 
