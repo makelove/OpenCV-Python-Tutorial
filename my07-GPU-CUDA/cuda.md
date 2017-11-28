@@ -15,7 +15,8 @@ https://opencv.org/platforms/cuda.html
 - 性能
     - 特斯拉C2050与Core i5-760 2.8Ghz，SSE，TBB
 ![](https://opencv.org/assets/pages/perf.png)
-    - 条形图：不同算法的加速：原始图像处理 -  30倍，立体视觉 -  7倍，行人检测 -  8倍，人脸检测器 -  6倍，SURF关键点 -  12倍
+    - 条形图：不同算法的加速：
+        - 原始图像处理 -  30倍，立体视觉 -  7倍，行人检测 -  8倍，人脸检测器 -  6倍，SURF关键点 -  12倍
 
 - 设计注意事项
     - OpenCV GPU模块是使用CUDA编写的，因此它受益于CUDA生态系统。有一个大型的社区，会议，出版物，开发的许多工具和库，如NVIDIA NPP，CUFFT，Thrust。
