@@ -18,6 +18,7 @@ print(cv2.getBuildInformation())
 #include "opencv2/gpu/gpu.hpp"
 using namespace std;
 using namespace cv;
+using namespace cv::gpu;  
 
 int main (int argc, char* argv[])
 {
