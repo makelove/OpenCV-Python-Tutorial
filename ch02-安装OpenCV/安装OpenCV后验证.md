@@ -1,5 +1,11 @@
 ##安装OpenCV后验证
 
+- pkg-config
+```bash
+pkg-config --modversion opencv
+3.3.0
+```
+
 ```python
 import cv2
 print(cv2.getBuildInformation())
