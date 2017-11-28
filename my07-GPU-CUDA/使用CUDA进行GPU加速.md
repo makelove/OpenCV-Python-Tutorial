@@ -41,4 +41,4 @@ int main (int argc, char* argv[])
 }
 ```
 - 编译
-    - 
+    - 失败：g++ `pkg-config --cflags --libs opencv` -lopencv_gpu cuda_test.cpp -o cuda_test
