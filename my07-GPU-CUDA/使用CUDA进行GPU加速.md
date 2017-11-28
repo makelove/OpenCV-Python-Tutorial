@@ -11,6 +11,19 @@ print(cv2.getBuildInformation())
 #Use Cuda:                    YES (ver 8.0)
 #表示成功
 ```    
+- 代码sample
+```bash
+nvidia@gpu:/usr/share/OpenCV/samples/gpu$ ls
+alpha_comp.cpp                    hog.cpp                     pyrlk_optical_flow.cpp
+bgfg_segm.cpp                     houghlines.cpp              stereo_match.cpp
+cascadeclassifier.cpp             morphology.cpp              stereo_multi.cpp
+cascadeclassifier_nvidia_api.cpp  multi.cpp                   super_resolution.cpp
+driver_api_multi.cpp              opengl.cpp                  surf_keypoint_matcher.cpp
+driver_api_stereo_multi.cpp       optical_flow.cpp            video_reader.cpp
+farneback_optical_flow.cpp        opticalflow_nvidia_api.cpp  video_writer.cpp
+generalized_hough.cpp             performance
+
+```
 - 代码C++
 ```cython
 #include <iostream>
