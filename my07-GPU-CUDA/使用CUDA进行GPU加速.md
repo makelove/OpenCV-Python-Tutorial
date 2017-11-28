@@ -16,6 +16,8 @@ print(cv2.getBuildInformation())
 #include <iostream>
 #include "opencv2/opencv.hpp"
 #include "opencv2/gpu/gpu.hpp"
+using namespace std;
+using namespace cv;
 
 int main (int argc, char* argv[])
 {
@@ -41,4 +43,4 @@ int main (int argc, char* argv[])
 }
 ```
 - 编译
-    - 失败：g++ `pkg-config --cflags --libs opencv` -lopencv_gpu cuda_test.cpp -o cuda_test
+    - 失败：g++ `pkg-config --cflags --libs opencv` -lopencv_gpu  cuda_test.cpp -o cuda_test
