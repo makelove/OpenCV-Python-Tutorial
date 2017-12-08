@@ -70,8 +70,9 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     
 ## 捐赠打赏  
 - 微信  
-![wechat_donate](data/wechat_donate.jpg){:height="400px" width="400px"}
- <img src="data/wechat_donate.jpg" width = "400" height = "400" alt="wechat_donate" align=center />
+    - <img src="data/wechat_donate.jpg" width = "400" height = "400" alt="wechat_donate"  />
+
 
 - 支付宝
-![alipay_donate](data/alipay_donate.jpg =600x600)
+    - <img src="data/alipay_donate.jpg" width = "400" height = "400" alt="alipay_donate"  />
+ 
