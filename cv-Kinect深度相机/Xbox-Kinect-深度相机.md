@@ -8,6 +8,8 @@
 - 安装驱动
     - sudo apt install python-freenect
     - https://github.com/OpenKinect/libfreenect
+    - 不支持python3
+        - https://stackoverflow.com/questions/45513567/freenect-not-importing-in-python-3-5-ubuntu-16-04-imports-in-python-2-7
 - 必须使用freenect或openni库    
     
 - 结果，截图
