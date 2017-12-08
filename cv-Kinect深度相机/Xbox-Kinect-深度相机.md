@@ -4,3 +4,10 @@
     - [Use Kinect with OpenCV (Python)](https://gist.github.com/joinAero/1f76844278f141cea8338d1118423648)
     - [Experimenting with Kinect using opencv, python and open kinect (libfreenect)](https://naman5.wordpress.com/2014/06/24/experimenting-with-kinect-using-opencv-python-and-open-kinect-libfreenect/)
     - [Getting Started With Kinect and OpenCV](https://electronicsforu.com/electronics-projects/software-projects-ideas/getting-started-kinect-opencv)
+
+- 安装驱动
+    - sudo apt install python-freenect
+    
+    
+- 结果，截图
+![depth_image](depth_image.png)    
