@@ -7,6 +7,7 @@
 
 - 安装驱动
     - sudo apt install python-freenect
+    - https://github.com/OpenKinect/libfreenect
 - 必须使用freenect或openni库    
     
 - 结果，截图
