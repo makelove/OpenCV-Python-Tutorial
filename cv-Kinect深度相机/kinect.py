@@ -6,6 +6,13 @@
 
 """
 kinect.py:
+python3
+
+result:
+Camera: 0x0, 0
+Grabs the next frame failed
+
+必须使用freenect或openni库
 """
 
 #!/usr/bin/env python
@@ -14,8 +21,8 @@ kinect.py:
 import cv2
 import numpy as np
 
-from .camera import Camera
-from .draw import Gravity, put_text
+from camera import Camera
+from draw import Gravity, put_text
 
 
 def main():

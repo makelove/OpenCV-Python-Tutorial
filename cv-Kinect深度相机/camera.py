@@ -72,7 +72,7 @@ class Camera(object):
         self.cap.set(prop_id, value)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':# V4L2 not support
     callback = lambda gray, fps: cv2.imshow('gray', gray)
 
     with Camera(0) as cam:

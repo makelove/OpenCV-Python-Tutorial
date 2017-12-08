@@ -7,7 +7,7 @@
 
 - 安装驱动
     - sudo apt install python-freenect
-    
+- 必须使用freenect或openni库    
     
 - 结果，截图
 ![depth_image](depth_image.png)    
