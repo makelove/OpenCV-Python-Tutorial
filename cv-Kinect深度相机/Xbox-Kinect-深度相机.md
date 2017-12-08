@@ -1,0 +1,6 @@
+## Xbox-Kinect-深度相机
+- 参考
+    - [Using Kinect and other OpenNI compatible depth sensors](https://docs.opencv.org/3.0-rc1/d7/df5/tutorial_ug_highgui.html)
+    - [Use Kinect with OpenCV (Python)](https://gist.github.com/joinAero/1f76844278f141cea8338d1118423648)
+    - [Experimenting with Kinect using opencv, python and open kinect (libfreenect)](https://naman5.wordpress.com/2014/06/24/experimenting-with-kinect-using-opencv-python-and-open-kinect-libfreenect/)
+    - [Getting Started With Kinect and OpenCV](https://electronicsforu.com/electronics-projects/software-projects-ideas/getting-started-kinect-opencv)

@@ -76,3 +76,4 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
 - 支付宝
     - <img src="data/alipay_donate.jpg" width = "200" height = "200" alt="alipay_donate"  />
  
+- 比特币
