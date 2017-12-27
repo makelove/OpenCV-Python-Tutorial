@@ -1,0 +1,7 @@
+numpy
+imutils
+sklearn
+tensorflow
+keras
+h5py
+opencv-contrib-python
