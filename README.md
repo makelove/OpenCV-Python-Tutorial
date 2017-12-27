@@ -68,6 +68,8 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     2. 专业版不贵，2年336元，每天0.46元。[Lantern蓝灯专业版购买流程](https://github.com/getlantern/forum/issues/3863)
     3. 邀请好友来获得更多的专业版使用时间。我的邀请码：GW2362
     
+## 更新
+- [破解验证码]()
     
 ## 捐赠打赏  
 - 微信  
@@ -78,3 +80,4 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     - <img src="data/alipay_donate.jpg" width = "200" height = "200" alt="alipay_donate"  />
  
 - 比特币
+- 以太坊
