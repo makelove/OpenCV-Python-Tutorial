@@ -59,6 +59,7 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     6. 有关OpenCV 3.3的更改和新功能的更多详细信息，请访问https://github.com/opencv/opencv/wiki/ChangeLog。
     7. [下载OpenCV 3.3](https://github.com/opencv/opencv/releases/tag/3.3.0)
     8. [安装OpenCV 3.3](http://www.linuxfromscratch.org/blfs/view/cvs/general/opencv.html)
+- [OpenCV 3.4在圣诞节前正式发布](https://opencv.org/opencv-3-4.html)    
 
 ## 怎样翻墙？使用Google搜索引擎，观看YouTube视频教程
 - shadowsocks
