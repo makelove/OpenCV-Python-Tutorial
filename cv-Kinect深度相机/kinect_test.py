@@ -35,15 +35,15 @@ def get_depth():
 
 
 if __name__ == "__main__":
-    # print 'start'
+    print('start')
     try:
         while 1:
             # get a frame from RGB camera
             frame = get_video()
-            # print 'frame',type(frame)
+            print('frame', type(frame))
             # get a frame from depth sensor
             depth = get_depth()
-            # print 'depth', type(depth)
+            print('depth', type(depth))
             # display RGB image
             cv2.imshow('RGB image', frame)
             # display depth image

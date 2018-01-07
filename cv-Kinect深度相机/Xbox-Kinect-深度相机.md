@@ -14,3 +14,6 @@
     
 - 结果，截图
 ![depth_image](depth_image.png)    
+
+- freenect 结果，截图
+![freenect_test](freenect_test1.png) 

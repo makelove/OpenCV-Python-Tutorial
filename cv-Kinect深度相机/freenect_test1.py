@@ -6,7 +6,11 @@
 
 """
 freenect_test1.py:
-不行。段错误 (核心已转储)
+
+安装pygame
+sudo apt-get build-dep python-pygame
+pip install pygame
+
 """
 
 import pygame
@@ -56,7 +60,8 @@ if __name__ == "__main__":
     disp_size = (640, 480)
     pygame.init()
     screen = pygame.display.set_mode(disp_size)
-    font = pygame.font.Font('slkscr.ttf', 32) #TODO provide your own font
+    # font = pygame.font.Font('slkscr.ttf', 32) #TODO provide your own font
+    font = pygame.font.Font(None, 32) #TODO provide your own font
     while True:
         events = pygame.event.get()
         for e in events:
