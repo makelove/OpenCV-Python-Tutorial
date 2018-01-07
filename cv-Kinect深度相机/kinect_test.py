@@ -35,20 +35,23 @@ def get_depth():
 
 
 if __name__ == "__main__":
-    print 'start'
-    while 1:
-        # get a frame from RGB camera
-        frame = get_video()
-        print 'frame',type(frame)
-        # get a frame from depth sensor
-        depth = get_depth()
-        print 'depth', type(depth)
-        # display RGB image
-        cv2.imshow('RGB image', frame)
-        # display depth image
-        cv2.imshow('Depth image', depth)
+    # print 'start'
+    try:
+        while 1:
+            # get a frame from RGB camera
+            frame = get_video()
+            # print 'frame',type(frame)
+            # get a frame from depth sensor
+            depth = get_depth()
+            # print 'depth', type(depth)
+            # display RGB image
+            cv2.imshow('RGB image', frame)
+            # display depth image
+            cv2.imshow('Depth image', depth)
 
-        # quit program when 'esc' key is pressed
-        k = cv2.waitKey(5) & 0xFF
-        if k == 27:
-            break
+            # quit program when 'esc' key is pressed
+            k = cv2.waitKey(5) & 0xFF
+            if k == 27:
+                break
+    except Exception as e:
+        print(e)
