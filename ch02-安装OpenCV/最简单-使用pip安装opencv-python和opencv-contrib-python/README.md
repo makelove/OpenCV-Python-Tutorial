@@ -5,15 +5,17 @@
 - source .cv2/bin/activate
 - pip install opencv-python
 - pip install matplotlib
-- 验证 python -c "import cv2;print(cv2.__version__,cv2.__doc__,cv2.__file__)"
+- 验证 
+    - python -c "import cv2;print(cv2.__version__,cv2.__doc__,cv2.__file__)"
 
 
 ## 安装 opencv-contrib-python
 强烈建议先卸载opencv-python
 - pip uninstall opencv-python
 - pip install opencv-contrib-python
-- 验证 python -c "import cv2;print(cv2.__version__,cv2.__doc__,cv2.__file__)"
-- 验证 python -c "import cv2;print(print(help(cv2.CascadeClassifier))"
+- 验证 
+    - python -c "import cv2;print(cv2.__version__,cv2.__doc__,cv2.__file__)"
+    - python -c "import cv2;print(help(cv2.CascadeClassifier))"
 
 ##
 软件包包含预编译的OpenCV二进制文件和Python绑定。 
