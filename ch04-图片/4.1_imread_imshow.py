@@ -27,7 +27,7 @@ cv2.namedWindow('image', cv2.WINDOW_NORMAL)#可以调整窗口大小
 # cv2.resizeWindow('image', 200, 200)  # 不起作用？
 
 cv2.imshow('image', img)#窗口会自动调整为图像大小
-# 按任意键退出
+# 在窗口上按任意键退出
 cv2.waitKey(delay=0)#返回按键的 ASCII 码值
 
 cv2.destroyAllWindows()

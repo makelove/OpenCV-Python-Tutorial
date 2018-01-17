@@ -17,6 +17,10 @@
     - python -c "import cv2;print(cv2.__version__,cv2.__doc__,cv2.__file__)"
     - python -c "import cv2;print(help(cv2.CascadeClassifier))"
 
+- 运行,2个特性
+    - 鼠标指向某个像素，提示栏会显示当前坐标和RGB数据
+    - 工具栏有很多实用的功能，可惜不能显示图标
+    - ![opencv-contrib-python](opencv-contrib-python.jpeg)
 ##
 软件包包含预编译的OpenCV二进制文件和Python绑定。 
 这可以为Python提供超快速（通常<10秒）OpenCV安装。 
