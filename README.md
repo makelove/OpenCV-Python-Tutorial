@@ -69,7 +69,7 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     3. 邀请好友来获得更多的专业版使用时间。我的邀请码：GW2362
     
 ## 更新
-- [破解验证码]()
+- [破解验证码](my06-验证码识别/solving_captchas_code_examples/README.md)
     
 ## 捐赠打赏  
 - 微信  
