@@ -5,12 +5,14 @@
 # @Software: PyCharm
 
 """
+参考：https://github.com/kivy/kivy/blob/master/kivy/core/camera/camera_opencv.py
+
 kivy_cv1.py:
 https://gist.github.com/ExpandOcean/de261e66949009f44ad2
 
 pip install kivy
 
-无显示
+问题：无显示
 """
 
 # coding:utf-8
