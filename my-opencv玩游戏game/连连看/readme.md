@@ -2,6 +2,8 @@
 - 百科：https://zh.wikipedia.org/zh-hans/%E8%BF%9E%E8%BF%9E%E7%9C%8B
 
 - 切割图片
+    - 然后，逐个对比，相似度
+    - 记录索引
 - 几乘几的矩阵
 - 模式识别
 
