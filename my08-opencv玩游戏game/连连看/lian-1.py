@@ -26,16 +26,27 @@ x1 = 0
 y1 = 0
 xp = int(height / 9)
 yp = int(width / 8)
+mat=[]
 for x2 in range(xp, height, xp):
+    pl=[]
     for y2 in range(yp, width, yp):
         cut = img[x1:x2, y1:y2]
         cv2.imshow('cut', cut)
         cv2.waitKey(10)
 
         y1 = y2
-    cv2.waitKey(1000)
+        #
+        pl.append(cut)
+    cv2.waitKey(100)
     y1 = 0
     x1 = x2
+    #
+    mat.append(pl)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+#
+import pickle
+with open('photo_mat','wb') as f:
+    pickle.dump(mat,f)
