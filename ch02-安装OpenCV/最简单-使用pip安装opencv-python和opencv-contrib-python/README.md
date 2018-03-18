@@ -6,7 +6,7 @@
 - pip install opencv-python
 - pip install matplotlib
 - 验证 
-    - python -c "import cv2;print(cv2.__version__,cv2.__doc__,cv2.__file__)"
+    - python -c "import cv2;print(cv2.\_\_version__,cv2.\_\_doc__,cv2.\_\_file__)"
 
 
 ## 安装 opencv-contrib-python
@@ -14,7 +14,7 @@
 - pip uninstall opencv-python
 - pip install opencv-contrib-python
 - 验证 
-    - python -c "import cv2;print(cv2.__version__,cv2.__doc__,cv2.__file__)"
+    - python -c "import cv2;print(cv2.\_\_version__,cv2.\_\_doc__,cv2.\_\_file__)"
     - python -c "import cv2;print(help(cv2.CascadeClassifier))"
 
 - 运行,2个特性

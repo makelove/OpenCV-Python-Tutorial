@@ -50,7 +50,7 @@ def compare(i, j, img):
             # if abs(image_difference-1)>0.5:
             # if image_difference < 0.1:
             #     pairs.append((i, j, x, y, image_difference))
-            if res[0][0] >= 0.8 :#and (i != x and j != y):
+            if res[0][0] >= 0.8 :#and (i != x and j != y): # 0.9较好
                 if i ==x and j ==y:
                     continue
                 pairs.append((i, j, x, y, res[0][0]))
