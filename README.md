@@ -65,7 +65,7 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
 - shadowsocks
     - 方便，随地随时翻墙
     - 手机使用4G信号上网，也可以。
-    - 推荐
+    - 强烈推荐！
 - [Lantern蓝灯](https://github.com/getlantern/lantern/releases/tag/latest)
     - 本人不使用蓝灯了。
     1. 可以免费使用，但用完800m流量后会限速，还能正常使用，就是有点慢
