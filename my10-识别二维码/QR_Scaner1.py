@@ -15,8 +15,8 @@ import cv2
 
 def main():
     fp = 'macbookPro.jpg'
-    # img = Image.open(fp)
-    # img.show()
+    # image = Image.open(fp)
+    # image.show()
     image = cv2.imread(fp)
     barcodes = decode(image)
     decoded = barcodes[0]
@@ -51,7 +51,7 @@ def main():
 
     # show the output image
     cv2.imshow("Image", image)
-    cv2.imwrite('macbook_qr_rect.jpg', image)
+    # cv2.imwrite('macbook_qr_rect.jpg', image)
     cv2.waitKey(0)  # 按任意键退出
 
 
