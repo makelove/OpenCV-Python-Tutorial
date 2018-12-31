@@ -24,10 +24,12 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 
 ##### 建议使用PyCharm来编写/调试Python代码
 
-### 开发环境
-* macOS Sierra 10.12.5 
+## 开发环境
+* macOS Mojave 10.14
 * Python 3.6.1
 * OpenCV 3.2.0
+* PyCharm 2018.3
+
 
 ### VMware 虚拟机
 如果安装OpenCV有问题，可以使用VMware 虚拟机安装Ubuntu系统，本人可以帮你们安装一个，再共享到百度云
