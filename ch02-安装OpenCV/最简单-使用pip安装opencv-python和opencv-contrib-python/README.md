@@ -1,4 +1,6 @@
-网址：https://pypi.python.org/pypi/opencv-python
+- 网址：
+    - https://github.com/skvark/opencv-python
+    - https://pypi.python.org/pypi/opencv-python
 
 ## 安装 opencv-python
 - virtualenv -p python3 .cv2
@@ -39,7 +41,7 @@ MacOS和Linux的轮子目前有一些局限性：
 
 A：不，包是特殊的轮二进制包，它们已经包含静态构建的OpenCV二进制文件。 
 
-**问：Pip没有找到包``opencv-python``？** 
+**问：pip没有找到包``opencv-python``？**
 
 A：轮包格式和manylinux构建是非常新的东西。最可能的问题是与旧的点相关联，可以通过运行``pip install -upgrade pip``和``pip install wheel``来修复。 
 
