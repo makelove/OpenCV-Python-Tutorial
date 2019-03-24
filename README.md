@@ -4,13 +4,11 @@
 这个repo是这本书PDF的所有源代码，几乎都被测试过，能正常运行。程序使用的图片和视频，都在data文件内。
 
 ### 平时会添加一些有趣的代码，实现某种功能。
-官方文档api：
-http://docs.opencv.org/3.2.0/
+- 官网 https://opencv.org/
+- 官方文档api https://docs.opencv.org/4.0.0/
+- 官方英文教程 http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 
-官方英文教程：
-http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
-
-运行:官方samples/demo.py 会有很多有趣的例子，介绍你去了解OpenCV的功能。
+## 运行:官方samples/demo.py 会有很多有趣的例子，介绍你去了解OpenCV的功能。
 
 
 ~~python 2.7 分支被废弃了，不再更新~~
@@ -49,8 +47,8 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 - [YouTube上sentex的OpenCV视频教程](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
 -
 
-## 新闻News
-- http://www.opencv.org.cn/
+## 新闻News https://opencv.org/news.html
+- 中文论坛 http://www.opencv.org.cn/
 - [OpenCV 3.3发布了](http://opencv.org/opencv-3-3.html) 
     1. 主要消息是我们将DNN模块从opencv_contrib推广到主存储库，改进和加速了很多。不再需要外部BLAS实现。对于GPU，使用Halide（http://halide-lang.org）进行实验性DNN加速。有关该模块的详细信息可以在我们的wiki中找到：[OpenCV中的深度学习](https://github.com/opencv/opencv/wiki/Deep-Learning-in-OpenCV)。
     2. OpenCV现在可以使用标志ENABLE_CXX11构建为C ++ 11库。添加了C ++ 11程序员的一些很酷的功能。
@@ -61,7 +59,7 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     6. 有关OpenCV 3.3的更改和新功能的更多详细信息，请访问https://github.com/opencv/opencv/wiki/ChangeLog。
     7. [下载OpenCV 3.3](https://github.com/opencv/opencv/releases/tag/3.3.0)
     8. [安装OpenCV 3.3](http://www.linuxfromscratch.org/blfs/view/cvs/general/opencv.html)
-- [OpenCV 3.4在圣诞节前正式发布](https://opencv.org/opencv-3-4.html)    
+- OpenCV 4.0发布了 https://opencv.org/opencv-4-0-0.html
 
 ## 怎样翻墙？使用Google搜索引擎，观看YouTube视频教程
 - shadowsocks
