@@ -50,7 +50,7 @@ http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html
 -
 
 ## 新闻News
-- http://www.opencv.org.cn/  恢复正常。
+- http://www.opencv.org.cn/
 - [OpenCV 3.3发布了](http://opencv.org/opencv-3-3.html) 
     1. 主要消息是我们将DNN模块从opencv_contrib推广到主存储库，改进和加速了很多。不再需要外部BLAS实现。对于GPU，使用Halide（http://halide-lang.org）进行实验性DNN加速。有关该模块的详细信息可以在我们的wiki中找到：[OpenCV中的深度学习](https://github.com/opencv/opencv/wiki/Deep-Learning-in-OpenCV)。
     2. OpenCV现在可以使用标志ENABLE_CXX11构建为C ++ 11库。添加了C ++ 11程序员的一些很酷的功能。
@@ -68,6 +68,19 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     - 方便，随地随时翻墙
     - 手机使用4G信号上网，也可以。
     - 强烈推荐！
+    - 购物国外服务器，搭建也很容易
+        - 参考 https://isweic.com/build-shadowsocks-python-server/
+        - pip install shadowsocks
+        - 运行
+            - shell窗口运行
+                - ssserver -p 8388 -k password -m aes-256-cfb
+                - 8388是端口号，password是密码，aes-256-cfb是加密类型，通过Ctrl+C结束
+            - 后台运行
+                - ssserver -p 8388 -k password -m aes-256-cfb --user nobody -d start
+                - 结束后台运行
+                    - ssserver -d stop
+            - 检查运行日志
+                - less /var/log/shadowsocks.log
 - [Lantern蓝灯](https://github.com/getlantern/lantern/releases/tag/latest)
     - 本人不使用蓝灯了。
     1. 可以免费使用，但用完800m流量后会限速，还能正常使用，就是有点慢
@@ -87,6 +100,6 @@ Intel Media SDK现在可以被我们的videoio模块用来进行硬件加速的�
     - <img src="data/alipay_donate.jpg" width = "200" height = "200" alt="alipay_donate"  />
  
 - 福利
-    - 免费服务器，但需要交押金，随时全额原路退还
+    - 免费国内服务器，但需要交押金，随时全额原路退还
         - 有需要的朋友请加入QQ群，发【手机号】给群主
         - ![free_server](data/free_server.jpeg)
