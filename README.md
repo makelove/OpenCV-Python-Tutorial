@@ -37,9 +37,9 @@
 
 ### 摄像头
 * MacBook pro自带
-* 淘宝，[130W像素高清摄像头模组 720P 1280x720 USB2.0免驱 微距模块](https://item.taobao.com/item.htm?id=17338719222)
-* 淘宝，[树莓派3代B Raspberry Pi USB摄像头，免驱动](https://item.taobao.com/item.htm?id=537977952154) 不好用，可视角度太小！
-* Kinect for Xbox360 Slim， AUX接口不能直接插入电脑，需要购买电源适配器 [淘宝](https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.38.7b483a1fZc5MU6&id=15751112283)
+* 淘宝，[130W像素高清摄像头模组 720P 1280x720 USB2.0免驱 微距模块](https://s.click.taobao.com/gOB3ACw)
+* 淘宝，[树莓派3代B Raspberry Pi USB摄像头，免驱动](https://s.click.taobao.com/kTu2ACw) 不好用，可视角度太小！
+* Kinect for Xbox360 Slim， AUX接口不能直接插入电脑，需要购买电源适配器 [淘宝](https://s.click.taobao.com/4RW2ACw)
 
 ## 教程资源
 - http://www.learnopencv.com/
