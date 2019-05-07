@@ -12,6 +12,7 @@
 - ![](7运行Python命令行.png)
 - ![](8hello.png)
 - ![](9pip.png)
-- ![](10安装OpenCV.png)
+- pip install opencv-contrib-python
+    - ![](10安装OpenCV.png)
 - ![](11引用OpenCV.png)
 - ![](12OpenCV的编译信息.png)
