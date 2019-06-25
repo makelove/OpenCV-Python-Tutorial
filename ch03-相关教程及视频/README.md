@@ -1,13 +1,17 @@
 # 教程
 
-《OpenCV-Python教程》,感觉很好
-http://blog.csdn.net/sunny2038/article/category/904451
+- 《OpenCV-Python教程》,感觉很好
+    - http://blog.csdn.net/sunny2038/article/category/904451
 
 
 
 # 视频
+- B站视频
+    - [python+opencv3.3视频教学 基础入门](https://www.bilibili.com/video/av24998616)
+    - [OpenCV基础课程](https://www.bilibili.com/video/av29600072)
+    - [基于OpenCV的图像和视频分析（Python语言）外国YouTube高手sentex，推荐](https://www.bilibili.com/video/av13924091)
 
-YouTube
+- YouTube
 * [sentex的OpenCV视频教程](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
     1. [Intro and loading Images  - OpenCV with Python for Image and Video Analysis 1](https://www.youtube.com/watch?v=Z78zbnLlPUA&index=1&list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
     2. [Loading Video Source - OpenCV with Python for Image and Video Analysis 2](https://www.youtube.com/watch?v=Jvf5y21ZqtQ&index=2&list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
