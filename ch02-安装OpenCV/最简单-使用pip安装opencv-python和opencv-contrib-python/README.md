@@ -2,6 +2,10 @@
     - https://github.com/skvark/opencv-python
     - https://pypi.python.org/pypi/opencv-python
 
+## 最快
+- 安装好pip和virtualenv
+- pip install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com  -r requirements_cv.txt
+
 ## 安装 opencv-python
 - virtualenv -p python3 .cv2
 - source .cv2/bin/activate
