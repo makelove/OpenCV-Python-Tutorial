@@ -3,7 +3,8 @@
 - 视频: https://www.bilibili.com/video/av51647039/
 
 - 首先下载Python https://www.python.org/downloads/windows/
-- ![](1以管理员运行.png)
+- 以管理员运行 
+- ![](1.png)
 - ![](2添加到path.png)
 - ![](3pip打钩.png)
 - ![](4安装.png)
