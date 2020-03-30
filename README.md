@@ -1,7 +1,10 @@
-# OpenCV-Python-Tutorial
+- 我在B站做视频博客VLoger，欢迎大家来捧场。不只是OpenCV
+    - 程序员赚钱指南 https://space.bilibili.com/180948619
+
+# [OpenCV-Python-Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial)
 
 ## [OpenCV-Python-Tutorial-中文版.pdf](OpenCV-Python-Tutorial-中文版.pdf)
-这个repo是这本书PDF的所有源代码，几乎都被测试过，能正常运行。程序使用的图片和视频，都在data文件内。
+- 这个repo是这本书PDF的所有源代码，几乎都被测试过，能正常运行。程序使用的图片和视频，都在data文件内。
 
 ### 平时会添加一些有趣的代码，实现某种功能。
 - 官网 https://opencv.org/
@@ -39,13 +42,14 @@
 * MacBook pro自带
 * 淘宝，[130W像素高清摄像头模组 720P 1280x720 USB2.0免驱 微距模块](https://s.click.taobao.com/gOB3ACw)
 * 淘宝，[树莓派3代B Raspberry Pi USB摄像头，免驱动](https://s.click.taobao.com/kTu2ACw) 不好用，可视角度太小！
-* Kinect for Xbox360 Slim， AUX接口不能直接插入电脑，需要购买电源适配器 [淘宝](https://s.click.taobao.com/4RW2ACw)
+* Kinect for Xbox360 Slim， AUX接口不能直接插入电脑，需要购买电源适配器 [淘宝](https://s.click.taobao.com/t?e=m%3D2%26s%3DuOhQTZaHKEQcQipKwQzePOeEDrYVVa64LKpWJ%2Bin0XLjf2vlNIV67rEUhWAGPPKrYFMBzHxYoCOlldgrEKAMDfvtTsPa%2Bvw8FDXjhIkoffd7RTQd3LKg2nJi6DFpZGNc%2Bht3wBcxEogkdIkZMKiRbrUG0ypJDuSgXlTpbZcV4j5YC7K2OdchcA%3D%3D&scm=null&pvid=null&app_pvid=59590_11.9.33.73_524_1585572680125&ptl=floorId%3A17741&originalFloorId%3A17741&app_pvid%3A59590_11.9.33.73_524_1585572680125&union_lens=lensId%3APUB%401585572666%400b1a25a5_48ac_1712b7ede03_179a%40023mXY9mmpUNuNySUoJofoOt)
 
 ## 教程资源
 - http://www.learnopencv.com/
 - http://www.pyimagesearch.com/
 - [YouTube上sentex的OpenCV视频教程](https://www.youtube.com/playlist?list=PLQVvvaa0QuDdttJXlLtAJxJetJcqmqlQq)
--
+- B站 [OpenCV YouTube](https://search.bilibili.com/all?keyword=OpenCV%20YouTube)
+- [官方教程](https://opencv.org/courses/)
 
 ## 新闻News https://opencv.org/news.html
 - 中文论坛 http://www.opencv.org.cn/
