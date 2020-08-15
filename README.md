@@ -2,6 +2,9 @@
     - 程序员赚钱指南 https://space.bilibili.com/180948619
 
 # [OpenCV-Python-Tutorial](https://github.com/makelove/OpenCV-Python-Tutorial)
+- 有朋友反映说下载repo慢，因为data有一些视频sample
+    - 现在2020-8-15把repo压缩，上传到百度云盘
+        - 链接: https://pan.baidu.com/s/1jpjpfum5EMpNrZoEHGvn1g 提取码: 8cab
 
 ## [OpenCV-Python-Tutorial-中文版.pdf](OpenCV-Python-Tutorial-中文版.pdf)
 - 这个repo是这本书PDF的所有源代码，几乎都被测试过，能正常运行。程序使用的图片和视频，都在data文件内。
