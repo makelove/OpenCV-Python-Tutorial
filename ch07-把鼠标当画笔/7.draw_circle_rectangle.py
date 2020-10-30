@@ -48,3 +48,5 @@ while True:
         mode = not mode
     elif k == ord("q"):
         break
+cv.waitKey()
+cv.destroyAllWindows()
