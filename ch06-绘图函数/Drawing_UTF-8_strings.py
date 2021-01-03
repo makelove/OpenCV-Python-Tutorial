@@ -20,17 +20,19 @@ ft = cv2.freetype.createFreeType2()  # 需要安装freetype模块 cv2' has no at
 # ft.loadFontData(fontFileName='/usr/share/fonts/truetype/freefont/FreeSans.ttf',id=0)#不支持中文
 # ft.loadFontData(fontFileName='/usr/share/fonts-droid/truetype/DroidSansFallback.ttf',id=0)#树莓派,搞定
 
-#sudo apt-get install ttf-wqy-zenhei  #安装字体
-ft.loadFontData(fontFileName='/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc', id=0)  # 文泉驿的开源中文字体
+# sudo apt-get install ttf-wqy-zenhei  #安装字体
+# ft.loadFontData(fontFileName='/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc', id=0)  # 文泉驿的开源中文字体
 
+# macOS 直接加载当前文件夹的ttc字体文件
+ft.loadFontData(fontFileName='wqy-zenhei.ttc', id=0)
 
 ft.putText(img=img,
            # text='Quick Fox',
            text='你好中文',
-           org=(15, 70),
-           fontHeight=60,
-           color=(255, 255, 255),
-           thickness=-1,
+           org=(15, 70),  # text 左上角 坐标
+           fontHeight=60,  # 字体高度
+           color=(255, 255, 255),  # 字体为白色
+           thickness=-1,  # 厚度
            line_type=cv2.LINE_AA,
            bottomLeftOrigin=True)
 
