@@ -3,6 +3,7 @@ __author__ = 'play4fun'
 """
 create time:15-10-24 下午5:19
 同时绘制多通道 BGR 
+直方图
 """
 
 import cv2
