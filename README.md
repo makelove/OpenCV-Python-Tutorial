@@ -17,7 +17,7 @@
 ## 运行:官方samples/demo.py 会有很多有趣的例子，介绍你去了解OpenCV的功能。
 
 
-~~python 2.7 分支被废弃了，不再更新~~
+~~python 2.7 分支被废弃了，不再更新~~˙
 
 ~~# 添加了 Python3.6分支,
 该分支是使用 opencv3.2+Python3.6~~
